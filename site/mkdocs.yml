@@ -55,9 +55,6 @@ markdown_extensions:
   - sane_lists
   - smarty
 
-extra_css:
-  - css/code_fixer.css
-
 theme: mkdocs
 
 docs_dir: '.'
