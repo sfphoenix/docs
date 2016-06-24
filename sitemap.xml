@@ -5,13 +5,13 @@
         
     <url>
      <loc>None/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/coral_ecosystem/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -20,14 +20,20 @@
     
         
     <url>
+     <loc>None/developer/</loc>
+     <lastmod>2016-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>None/quickstart/install/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/quickstart/mongodb/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -72,8 +78,8 @@
     
         
     <url>
-     <loc>None/contributions/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -82,38 +88,50 @@
     
         
     <url>
-     <loc>None/contributions/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/contributions/documentation/writing_documentation/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/documentation/writing_documentation/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/contributions/reporting_bugs/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/reporting_bugs/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/contributions/supporting_the_community/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/development/writing_code/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/contributions/contributor_license_agreement/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <loc>None/contribute/development/working_with_github/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
+     <loc>None/contribute/development/code_style/</loc>
+     <lastmod>2016-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/contribute/supporting_the_community/</loc>
+     <lastmod>2016-06-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/contribute/contributor_license_agreement/</loc>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -122,7 +140,7 @@
     
     <url>
      <loc>None/faq/</loc>
-     <lastmod>2016-06-23</lastmod>
+     <lastmod>2016-06-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-	<title>Writing code - Coral Project Docs</title>
+	<title>Coding styleguide - Coral Project Docs</title>
 
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -74,6 +74,12 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developer Guide <b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../../developer/">Introduction</a>
+</li>
+
                     
                         
 <li >
@@ -299,6 +305,24 @@
                     
                         
 <li >
+    <a href="../writing_code/">Writing code</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../working_with_github/">Development workflow</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">Coding styleguide</a>
+</li>
+
+                    
+                        
+<li >
     <a href="../../supporting_the_community/">Supporting the community</a>
 </li>
 
@@ -307,33 +331,6 @@
 <li >
     <a href="../../contributor_license_agreement/">Contributor License Agreement</a>
 </li>
-
-                    
-                        
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">DEVELOPMENT</a>
-    <ul class="dropdown-menu">
-        
-            
-<li class="active">
-    <a href="./">Writing code</a>
-</li>
-
-        
-            
-<li >
-    <a href="../working_with_github/">Development workflow</a>
-</li>
-
-        
-            
-<li >
-    <a href="../code_style/">Coding style</a>
-</li>
-
-        
-    </ul>
-  </li>
 
                     
                     </ul>
@@ -356,12 +353,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../../contributor_license_agreement/">
+                    <a rel="next" href="../working_with_github/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../working_with_github/">
+                    <a rel="prev" href="../../supporting_the_community/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -375,36 +372,85 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#writing-code">Writing Code</a></li>
+        <li class="main active"><a href="#coding-style">Coding Style</a></li>
         
-            <li><a href="#before-you-begin">Before you begin</a></li>
+    
+        <li class="main "><a href="#go-coding-style">Go Coding Style</a></li>
         
-            <li><a href="#writing-code_1">Writing code</a></li>
+            <li><a href="#useful-tools-when-developing">Useful Tools when developing</a></li>
+        
+            <li><a href="#resources">Resources</a></li>
+        
+    
+        <li class="main "><a href="#javascript-conventions">Javascript conventions</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="writing-code">Writing Code</h1>
-<p>So you’d like to write some code to improve the Coral Project? Great!</p>
-<h2 id="before-you-begin">Before you begin</h2>
-<p>Before writing any code with the intention of merging into master, ensure the work you&rsquo;re doing has an GitHub issue and try in good faith to engage the community in conversation in the issue feed. Here is a checklist to follow before starting:</p>
+<h1 id="coding-style">Coding Style</h1>
+<h1 id="go-coding-style">Go Coding Style</h1>
+<p>Unless explicitly stated, we follow all coding guidelines from the Go
+community. While some of these standards may seem arbitrary, they somehow seem
+to result in a solid, consistent codebase.</p>
+<p>It is possible that the code base does not currently comply with these
+guidelines. We are not looking for a massive PR that fixes this, since that
+goes against the spirit of the guidelines. All new contributions should make a
+best effort to clean up and make the code base better than they left it.
+Obviously, apply your best judgement. Remember, the goal here is to make the
+code base easier for humans to navigate and understand. Always keep that in
+mind when nudging others to comply.</p>
+<p>The rules:</p>
+<ol>
+<li>All code should be formatted with <code>gofmt -s</code>.</li>
+<li>All code should pass the default levels of
+   <a href="https://github.com/golang/lint"><code>golint</code></a>.</li>
+<li>All code should follow the guidelines covered in <a href="http://golang.org/doc/effective_go.html">Effective
+   Go</a> and <a href="https://github.com/golang/go/wiki/CodeReviewComments">Go Code Review
+   Comments</a>.</li>
+<li>Comment the code. Tell us the why, the history and the context.</li>
+<li>Document <em>all</em> declarations and methods, even private ones. Declare
+   expectations, caveats and anything else that may be important. If a type
+   gets exported, having the comments already there will ensure it&rsquo;s ready.</li>
+<li>Variable name length should be proportional to it&rsquo;s context and no longer.
+   <code>noCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo</code>.
+   In practice, short methods will have short variable names and globals will
+   have longer names.</li>
+<li>No underscores in package names. If you need a compound name, step back,
+   and re-examine why you need a compound name. If you still think you need a
+   compound name, lose the underscore.</li>
+<li>No utils or helpers packages. If a function is not general enough to
+   warrant it&rsquo;s own package, it has not been written generally enough to be a
+   part of a util package. Just leave it unexported and well-documented.</li>
+<li>All tests should run with <code>go test</code> and outside tooling should not be
+   required. No, we don&rsquo;t need another unit testing framework. Assertion
+   packages are acceptable if they provide <em>real</em> incremental value.</li>
+<li>Even though we call these &ldquo;rules&rdquo; above, they are actually just
+    guidelines. Since you&rsquo;ve read all the rules, you now know that.</li>
+</ol>
+<p>If you are having trouble getting into the mood of idiomatic Go, we recommend
+reading through <a href="http://golang.org/doc/effective_go.html">Effective Go</a>. The
+<a href="http://blog.golang.org/">Go Blog</a> is also a great resource. Drinking the
+kool-aid is a lot easier than going thirsty.</p>
+<p><em>Attribution: Go Coding Style adopted from the Docker project.</em></p>
+<h2 id="useful-tools-when-developing">Useful Tools when developing</h2>
 <ul>
-<li>Check the FAQ to see if your issue has already been addressed.</li>
-<li>Check the GitHub issues to see if an issue already exists for the work you want to do, and to make sure that there isn&rsquo;t already someone working on it.<ul>
-<li>If there isn&rsquo;t already someone working on it, then leave a comment to let everyone know that you are starting work on it.</li>
-<li>If someone is already working on it, consider collaborating with them.</li>
+<li>golint</li>
+<li>gofmt</li>
+<li>goimports</li>
+<li>go vet</li>
+<li>errcheck</li>
 </ul>
-</li>
-<li>If no issue exists, then create an issue for it before getting started. You can find more information on writing a detailed issue <a href="../../reporting_bugs/">here</a>.</li>
-</ul>
-<h2 id="writing-code_1">Writing code</h2>
-<p>Once you&rsquo;ve followed the checklist above, browse the following sections to find out how to give your code the best chance of being included in the Coral Project.</p>
+<h2 id="resources">Resources</h2>
 <ul>
-<li><a href="../code_style/">Coding style</a></li>
-<li><a href="../working_with_github/">Working with Git and GitHub</a></li>
-</ul></div>
+<li><a href="https://github.com/golang/go/wiki/CodeReviewComments">Go Code Review Comments</a></li>
+<li><a href="https://www.youtube.com/watch?v=Y1-RLAl7iOI">Best Practices for Production Environments</a></li>
+<li><a href="http://12factor.net/">12 Factor App</a></li>
+<li><a href="https://speakerdeck.com/farslan/tools-for-working-with-go-code">Tools for working with Go Code</a></li>
+</ul>
+<h1 id="javascript-conventions">Javascript conventions</h1>
+<p>We are currently working under the <a href="https://github.com/airbnb/javascript/tree/master/react">Airbnb js react conventions</a>. </p></div>
         </div>
 
         <footer class="col-md-12">

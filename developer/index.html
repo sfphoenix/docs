@@ -76,8 +76,8 @@
                     <ul class="dropdown-menu">
                     
                         
-<li >
-    <a href="../developer/">Introduction</a>
+<li class="active">
+    <a href="./">Introduction</a>
 </li>
 
                     
@@ -120,14 +120,14 @@
     <ul class="dropdown-menu">
         
             
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../elkhorn/">Introduction</a>
 </li>
 
         
             
 <li >
-    <a href="install/">Installation</a>
+    <a href="../elkhorn/install/">Installation</a>
 </li>
 
         
@@ -353,12 +353,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../cay/install/">
+                    <a rel="next" href="../coral_ecosystem/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="install/">
+                    <a rel="prev" href="../quickstart/install/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -374,11 +374,17 @@
     
         <li class="main active"><a href="#introduction">Introduction</a></li>
         
-            <li><a href="#askcomposer">AskComposer:</a></li>
+    
+        <li class="main "><a href="#the-coral-ecosystem">The Coral Ecosystem</a></li>
         
-            <li><a href="#embed-service">Embed Service:</a></li>
+    
+        <li class="main "><a href="#installation">Installation</a></li>
         
-            <li><a href="#to-view-forms">To view forms</a></li>
+            <li><a href="#install-a-fully-functioning-single-server-coral-ecosystem-using-docker">Install a fully functioning single-server Coral Ecosystem, using Docker.</a></li>
+        
+            <li><a href="#installing-each-component-individually-using-docker">Installing each component individually, using Docker.</a></li>
+        
+            <li><a href="#installing-each-component-individually-from-source-code">Installing each component individually from source code.</a></li>
         
     
     </ul>
@@ -386,39 +392,56 @@
             <div class="col-md-9" role="main">
 
 <h1 id="introduction">Introduction</h1>
-<p><a href="https://github.com/coralproject/elkhorn">Elkhorn</a> is the form composer and embeddable builder.</p>
-<p><img alt="ArchDiagram" src="./../images/arch.png?raw=true" title="ArchDiagram" /></p>
-<h2 id="askcomposer">AskComposer:</h2>
+<p>Welcome! This is the place to be if you want to learn more about Coral from the standpoint of a developer or a technical user. Here you can learn about the inner workings of Coral, how to install the products, how to use the APIs, and more.</p>
+<p>If you are a developer who is interested in contributing to our code, great! You can read more about contributing in our <a href="./../contribute/">Contribute section</a>.</p>
+<h1 id="the-coral-ecosystem">The Coral Ecosystem</h1>
+<p>Coral is made up of a number of component apps that work together to power three products (Trust, Ask, and Talk). You can read more about how this ecosystem fits together <a href="./../coral_ecosystem">here</a>.</p>
+<h1 id="installation">Installation</h1>
+<p>There are a few different installation options to choose from. Which one is right for you?</p>
+<h4 id="install-a-fully-functioning-single-server-coral-ecosystem-using-docker">Install a fully functioning single-server Coral Ecosystem, using Docker.</h4>
+<p>This is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.</p>
+<p>You should also have the following resources on your machine before installing:</p>
 <ul>
-<li>&hellip;takes an <strong>Ask spec</strong> in some sort of serialization (JSON or any other), and renders it.</li>
-<li>&hellip;does not know where the serialized spec came from.</li>
-<li>&hellip;stores the state of the form (completed fields, current progress, etc)</li>
-<li>&hellip;persists the state by sending the completed form to a server destination</li>
-<li>&hellip;may persist partial states locally</li>
+<li>Minimum CPU: 2.0 GHz</li>
+<li>Minimum RAM: 4GB</li>
+<li>Minimum disk space required: 4GB</li>
 </ul>
-<h2 id="embed-service">Embed Service:</h2>
+<p>You can find instructions on how to install Coral as a single Docker Compose installation <a href="../quickstart/install/">here</a>.</p>
+<p><strong><em>Probably best for you if:</em></strong></p>
 <ul>
-<li>&hellip;uses <strong>rollup</strong> (and it&rsquo;s amazing &ldquo;tree-shaking&rdquo; feature) to generate a build of minimum size.</li>
+<li>You want to install Coral to perform a demo.</li>
+<li>You want to get Coral running on your local machine to get a sense of its functionality and capabilities.</li>
+<li>You want to get Coral up and running, and aren&rsquo;t worried about scaling right now.</li>
 </ul>
-<h2 id="to-view-forms">To view forms</h2>
-<h3 id="as-a-standalone-page">As a standalone page</h3>
-<p>A full page including the form is rendered from this endpoint:</p>
-<pre><code>https://[elkhornserver]/iframe/[form_id]
-</code></pre>
-
-<h3 id="via-iframe">via iFrame</h3>
-<p>The standalone page link is suitable for an iframe:</p>
-<pre><code>&lt;iframe src=&quot;https://[elkhornserver]/iframe/[form_id]&quot; width=&quot;100%&quot; height=&quot;600px&quot;&gt;&lt;/iframe&gt;
-</code></pre>
-
+<h4 id="installing-each-component-individually-using-docker">Installing each component individually, using Docker.</h4>
+<p>This will install each component on a separate server, which allows for scaling up in future. It does require some more work to get each component talking and interacting with each other, but will scale better.</p>
+<p>If you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.</p>
 <ul>
-<li>Note that the width and height parameters may need to be tweaked.</li>
+<li><a href="../cay/install/">Cay installation instructions</a></li>
+<li><a href="../elkhorn/install/">Elkhorn installation instructions</a></li>
+<li><a href="../pillar/install/">Pillar installation instructions</a></li>
+<li><a href="../sponge/install/">Sponge installation instructions</a></li>
+<li><a href="../xenia/install/">Xenia installation instructions</a></li>
 </ul>
-<p>iframes can be embedded directly into pages</p>
-<h3 id="rendered-directly-into-a-page">Rendered directly into a page</h3>
-<p>We can also render a form directly into a page.  This provides the advantages of native css inheritance as well as all the other issues that come with iframes.</p>
-<pre><code>&lt;div id=&quot;ask-form&quot;&gt;&lt;/div&gt;&lt;script src=&quot;[filewritelocation]/[formid].js&quot;&gt;&lt;/script&gt;
-</code></pre></div>
+<p><strong><em>Probably best for you if:</em></strong></p>
+<ul>
+<li>You have multiple servers, and are concerned about scalability.</li>
+<li>You have a sysadmin to help manage installation and maintenance.</li>
+</ul>
+<h4 id="installing-each-component-individually-from-source-code">Installing each component individually from source code.</h4>
+<p>This option will have you install each component individually from source code, which will either be Go (most components) or Node.js.</p>
+<p>If you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.</p>
+<ul>
+<li><a href="../cay/install/">Cay installation instructions</a></li>
+<li><a href="../elkhorn/install/">Elkhorn installation instructions</a></li>
+<li><a href="../pillar/install/">Pillar installation instructions</a></li>
+<li><a href="../sponge/install/">Sponge installation instructions</a></li>
+<li><a href="../xenia/install/">Xenia installation instructions</a></li>
+</ul>
+<p><strong><em>Probably best for you if:</em></strong></p>
+<ul>
+<li>You are a developer that wants to work on Coral and potentially <a href="../contribute/development/writing_code/">contribute to our code base</a> (thank you!).</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">

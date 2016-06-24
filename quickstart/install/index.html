@@ -76,6 +76,12 @@
                     <ul class="dropdown-menu">
                     
                         
+<li >
+    <a href="../../developer/">Introduction</a>
+</li>
+
+                    
+                        
 <li class="active">
     <a href="./">Installing Coral Ecosystem</a>
 </li>
@@ -266,7 +272,7 @@
                     
                         
 <li >
-    <a href="../../contributions/">Introduction</a>
+    <a href="../../contribute/">Introduction</a>
 </li>
 
                     
@@ -281,59 +287,50 @@
                     
                         
 <li >
-    <a href="../../contributions/">Introduction</a>
+    <a href="../../contribute/">Introduction</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../contributions/documentation/writing_documentation/">Writing documentation</a>
+    <a href="../../contribute/documentation/writing_documentation/">Writing documentation</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../contributions/reporting_bugs/">Reporting bugs and requesting features</a>
+    <a href="../../contribute/reporting_bugs/">Reporting bugs and requesting features</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../contributions/supporting_the_community/">Supporting the community</a>
+    <a href="../../contribute/development/writing_code/">Writing code</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../contributions/contributor_license_agreement/">Contributor License Agreement</a>
+    <a href="../../contribute/development/working_with_github/">Development workflow</a>
 </li>
 
                     
                         
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">DEVELOPMENT</a>
-    <ul class="dropdown-menu">
-        
-            
 <li >
-    <a href="../../contributions/development/writing_code/">Writing code</a>
+    <a href="../../contribute/development/code_style/">Coding styleguide</a>
 </li>
 
-        
-            
+                    
+                        
 <li >
-    <a href="../../contributions/development/working_with_github/">Development workflow</a>
+    <a href="../../contribute/supporting_the_community/">Supporting the community</a>
 </li>
 
-        
-            
+                    
+                        
 <li >
-    <a href="../../contributions/development/code_style/">Coding style</a>
+    <a href="../../contribute/contributor_license_agreement/">Contributor License Agreement</a>
 </li>
-
-        
-    </ul>
-  </li>
 
                     
                     </ul>
@@ -356,7 +353,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../../coral_ecosystem/">
+                    <a rel="next" href="../../developer/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
@@ -375,7 +372,7 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#all-in-one-docker-installation">All-in-One Docker Installation</a></li>
+        <li class="main active"><a href="#all-in-one-docker-compose-installation">All-in-One Docker Compose Installation</a></li>
         
             <li><a href="#before-you-begin">Before you begin</a></li>
         
@@ -398,12 +395,20 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="all-in-one-docker-installation">All-in-One Docker Installation</h1>
+<h1 id="all-in-one-docker-compose-installation">All-in-One Docker Compose Installation</h1>
+<p>The all-in-one Docker Compose installation is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.</p>
+<p>You can read about the different types of installation options on the <a href="introduction.md">developer introduction page</a>.</p>
 <h2 id="before-you-begin">Before you begin</h2>
 <p>You must have the following items installed and running:</p>
 <ul>
 <li><strong>MongoDB Server</strong>: You can find instructions on installing MongoDB <a href="https://docs.mongodb.com/getting-started/shell/">on the MongoDB website</a>.</li>
 <li><strong>RabbitMQ</strong>: You can find instructions on installing RabbitMQ <a href="https://www.rabbitmq.com/download.html">on the RabbitMQ website</a>.</li>
+</ul>
+<p>You should also have the following resources on your machine before installing:</p>
+<ul>
+<li>Minimum CPU: 2.0 GHz</li>
+<li>Minimum RAM: 4GB</li>
+<li>Minimum disk space required: 4GB</li>
 </ul>
 <h2 id="install-docker-toolbox">Install Docker Toolbox</h2>
 <p>If you do not already have Docker installed, do that first. You can install Docker Toolbox using the Docker instructions <a href="https://docs.docker.com/mac/">located here</a>.</p>

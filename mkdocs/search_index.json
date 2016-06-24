@@ -71,18 +71,53 @@
             "title": "Elkhorn"
         }, 
         {
+            "location": "/developer/", 
+            "text": "Introduction\n\n\nWelcome! This is the place to be if you want to learn more about Coral from the standpoint of a developer or a technical user. Here you can learn about the inner workings of Coral, how to install the products, how to use the APIs, and more.\n\n\nIf you are a developer who is interested in contributing to our code, great! You can read more about contributing in our \nContribute section\n.\n\n\nThe Coral Ecosystem\n\n\nCoral is made up of a number of component apps that work together to power three products (Trust, Ask, and Talk). You can read more about how this ecosystem fits together \nhere\n.\n\n\nInstallation\n\n\nThere are a few different installation options to choose from. Which one is right for you?\n\n\nInstall a fully functioning single-server Coral Ecosystem, using Docker.\n\n\nThis is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.\n\n\nYou should also have the following resources on your machine before installing:\n\n\n\n\nMinimum CPU: 2.0 GHz\n\n\nMinimum RAM: 4GB\n\n\nMinimum disk space required: 4GB\n\n\n\n\nYou can find instructions on how to install Coral as a single Docker Compose installation \nhere\n.\n\n\nProbably best for you if:\n\n\n\n\nYou want to install Coral to perform a demo.\n\n\nYou want to get Coral running on your local machine to get a sense of its functionality and capabilities.\n\n\nYou want to get Coral up and running, and aren\nt worried about scaling right now.\n\n\n\n\nInstalling each component individually, using Docker.\n\n\nThis will install each component on a separate server, which allows for scaling up in future. It does require some more work to get each component talking and interacting with each other, but will scale better.\n\n\nIf you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.\n\n\n\n\nCay installation instructions\n\n\nElkhorn installation instructions\n\n\nPillar installation instructions\n\n\nSponge installation instructions\n\n\nXenia installation instructions\n\n\n\n\nProbably best for you if:\n\n\n\n\nYou have multiple servers, and are concerned about scalability.\n\n\nYou have a sysadmin to help manage installation and maintenance.\n\n\n\n\nInstalling each component individually from source code.\n\n\nThis option will have you install each component individually from source code, which will either be Go (most components) or Node.js.\n\n\nIf you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.\n\n\n\n\nCay installation instructions\n\n\nElkhorn installation instructions\n\n\nPillar installation instructions\n\n\nSponge installation instructions\n\n\nXenia installation instructions\n\n\n\n\nProbably best for you if:\n\n\n\n\nYou are a developer that wants to work on Coral and potentially \ncontribute to our code base\n (thank you!).", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/developer/#introduction", 
+            "text": "Welcome! This is the place to be if you want to learn more about Coral from the standpoint of a developer or a technical user. Here you can learn about the inner workings of Coral, how to install the products, how to use the APIs, and more.  If you are a developer who is interested in contributing to our code, great! You can read more about contributing in our  Contribute section .", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/developer/#the-coral-ecosystem", 
+            "text": "Coral is made up of a number of component apps that work together to power three products (Trust, Ask, and Talk). You can read more about how this ecosystem fits together  here .", 
+            "title": "The Coral Ecosystem"
+        }, 
+        {
+            "location": "/developer/#installation", 
+            "text": "There are a few different installation options to choose from. Which one is right for you?", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/developer/#install-a-fully-functioning-single-server-coral-ecosystem-using-docker", 
+            "text": "This is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.  You should also have the following resources on your machine before installing:   Minimum CPU: 2.0 GHz  Minimum RAM: 4GB  Minimum disk space required: 4GB   You can find instructions on how to install Coral as a single Docker Compose installation  here .  Probably best for you if:   You want to install Coral to perform a demo.  You want to get Coral running on your local machine to get a sense of its functionality and capabilities.  You want to get Coral up and running, and aren t worried about scaling right now.", 
+            "title": "Install a fully functioning single-server Coral Ecosystem, using Docker."
+        }, 
+        {
+            "location": "/developer/#installing-each-component-individually-using-docker", 
+            "text": "This will install each component on a separate server, which allows for scaling up in future. It does require some more work to get each component talking and interacting with each other, but will scale better.  If you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.   Cay installation instructions  Elkhorn installation instructions  Pillar installation instructions  Sponge installation instructions  Xenia installation instructions   Probably best for you if:   You have multiple servers, and are concerned about scalability.  You have a sysadmin to help manage installation and maintenance.", 
+            "title": "Installing each component individually, using Docker."
+        }, 
+        {
+            "location": "/developer/#installing-each-component-individually-from-source-code", 
+            "text": "This option will have you install each component individually from source code, which will either be Go (most components) or Node.js.  If you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.   Cay installation instructions  Elkhorn installation instructions  Pillar installation instructions  Sponge installation instructions  Xenia installation instructions   Probably best for you if:   You are a developer that wants to work on Coral and potentially  contribute to our code base  (thank you!).", 
+            "title": "Installing each component individually from source code."
+        }, 
+        {
             "location": "/quickstart/install/", 
-            "text": "All-in-One Docker Installation\n\n\nBefore you begin\n\n\nYou must have the following items installed and running:\n\n\n\n\nMongoDB Server\n: You can find instructions on installing MongoDB \non the MongoDB website\n.\n\n\nRabbitMQ\n: You can find instructions on installing RabbitMQ \non the RabbitMQ website\n.\n\n\n\n\nInstall Docker Toolbox\n\n\nIf you do not already have Docker installed, do that first. You can install Docker Toolbox using the Docker instructions \nlocated here\n.\n\n\nIf you do have Docker installed, you\nll want to make sure that you have Docker Compose version 1.7 or later. You can check your version using the command \ndocker version\n.\n\n\nGet the source code\n\n\nClone the Proxy repository. This repository contains a number of setup files that you can edit, and will help you easily spin up a Docker container.\n\n\ngit clone https://github.com/coralproject/Proxy.git\n\n\n\n\nThen cd into the Proxy directory.\n\n\ncd Proxy\n\n\n\n\nSet environment variables\n\n\nThe \nenv.conf\n file contains environment variables you need to set. Setting your environment variables tells Docker which IP address your Coral frontend will have, as well as other information such as your MongoDB username and password.\n\n\nexport FRONTEND_HOST=\n\nexport GAID_VALUE=xxxx\nexport AUTH_TOKEN_VALUE=xxxx\nexport RABBIT_USER=rabbitmq\nexport RABBIT_PASS=welcome\n# mongo:\nexport MONGO_AUTHDB=admin\nexport MONGO_USER=coral-user\nexport MONGO_PASS=welcome\nexport MONGO_DB=coral\n\n#elkhorn\nexport accessKeyId=xxx\nexport secretAccessKey=xxx\nexport pillarHost=xxx\nexport basicAuthorization=xxx\nexport bucket=xxx\nexport region=xxx\n# sponge:\nexport STRATEGY_CONF=/usr/local/strategy.json\n\n\n\n\nRequired edits:\n\n\n\n\nFRONTEND_HOST\n: set to your desired IP address for the front end. For this example, we will use \n192.168.99.100\n.\n\n\n\n\nOptional edits:\n\n\n\n\nGAID_VALUE=xxxx\n: If you\nre using Google Analytics, set your token at \nexport GAID_VALUE=xxxx\n. Otherwise, delete or comment out this line.\n\n\nexport AUTH_TOKEN_VALUE=xxxx\n: If you\nre using a custom auth token, set that at \nexport AUTH_TOKEN_VALUE=xxxx\n. Otherwise, delete or comment out this line.\n\n\n\n\nFinally, while inside the \nProxy\n directory, run the following command to export your edited variables and set the environment variables.\n\n\nsource env.conf\n\n\n\n\nSpin up the Docker container\n\n\nThe very first time that you spin up the Docker container, this will be a multi-step process:\n\n\n1. Spin up the Docker container:\n\n\ndocker-compose -f docker-compose.yml up -d\n\n\n\n\nThe \ndocker-compose.yml\n file contained in the docker-setup directory contains all the instructions that Docker Compose needs to set up the Coral Ecosystem.\n\n\n2. \nNote:\n If this is your first time spinning up the Docker container, Docker is going to download and install a number of Docker images first. These can be fairly large (~500MB per image), so it may take a few minutes.\n\n\n3. Once all Docker images have been downloaded, you\nll see something like the following in your terminal:\n\n\nCreating proxy_mongodata_1\nCreating proxy_sponge_1\nCreating proxy_rabbitmq_1\nCreating proxy_atollapp_1\nCreating proxy_xeniaapp_1\nCreating proxy_pillarapp_1\nCreating proxy_cayapp_1\nCreating proxy_proxy_1\n\n\n\n\n4. Now, shut everything down with the Docker \ndown\n command. This up-down-up sequence initializes authentication on MongoDB.\n\n\ndocker-compose -f docker-compose.yml down\n\n\n\n\n5. Finally, start the Docker container back up. In future (now that the Docker images have all been downloaded and set up), you can simply use this command to start your Docker container.\n\n\ndocker-compose -f docker-compose.yml up -d\n\n\n\n\nTest it out\n\n\nTo make sure it\ns working, try to hit the front-end URL in your browser. This is the URL you specified as \nFRONTEND_HOST\n in the \nenv.conf\n setup above; in this case, \nhttps://192.168.99.100\n.\n\n\nTroubleshooting\n\n\nViewing running Docker containers\n\n\nTo see all of the Docker containers currently running, use the command \ndocker ps\n (you can read more about this command and its options at the \nDocker website\n).\n\n\ndocker ps\n\n\n\n\nYou should have all of the following containers running:\n\n\n\n\nnginx:stable-alpine\n\n\ncoralproject/cay\n\n\ncoralproject/elkhorn\n\n\ncoralproject/pillar\n\n\ncoralproject/atoll\n\n\ncoralproject/xenia\n\n\ncoralproject/sponge\n\n\nrabbitmq:management\n\n\ncoralproject/mongodata\n\n\n\n\nViewing installed Docker images\n\n\nTo see all of the Docker images you have installed, use the command \ndocker images\n (you can read more about this command and its options at the \nDocker website\n).\n\n\ndocker images\n\n\n\n\nViewing Docker logs\n\n\nTo view Docker logs for a container, use the command \ndocker logs \ncontainer id\n (you can read more about this command and its options at the \nDocker website\n).\n\n\nFirst you have to find the container id:\n\n\ndocker ps\n\n\n\n\nThen use the container id to view the logs:\n\n\ndocker logs e0bbd7be19c7\n\n\n\n\nOperating system requirements\n\n\nOn Mac, we support OS X El Capitan (10.11) or newer. If you are on an older OS, you may have to upgrade.\n\n\nUninstalling Docker images", 
+            "text": "All-in-One Docker Compose Installation\n\n\nThe all-in-one Docker Compose installation is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.\n\n\nYou can read about the different types of installation options on the \ndeveloper introduction page\n.\n\n\nBefore you begin\n\n\nYou must have the following items installed and running:\n\n\n\n\nMongoDB Server\n: You can find instructions on installing MongoDB \non the MongoDB website\n.\n\n\nRabbitMQ\n: You can find instructions on installing RabbitMQ \non the RabbitMQ website\n.\n\n\n\n\nYou should also have the following resources on your machine before installing:\n\n\n\n\nMinimum CPU: 2.0 GHz\n\n\nMinimum RAM: 4GB\n\n\nMinimum disk space required: 4GB\n\n\n\n\nInstall Docker Toolbox\n\n\nIf you do not already have Docker installed, do that first. You can install Docker Toolbox using the Docker instructions \nlocated here\n.\n\n\nIf you do have Docker installed, you\nll want to make sure that you have Docker Compose version 1.7 or later. You can check your version using the command \ndocker version\n.\n\n\nGet the source code\n\n\nClone the Proxy repository. This repository contains a number of setup files that you can edit, and will help you easily spin up a Docker container.\n\n\ngit clone https://github.com/coralproject/Proxy.git\n\n\n\n\nThen cd into the Proxy directory.\n\n\ncd Proxy\n\n\n\n\nSet environment variables\n\n\nThe \nenv.conf\n file contains environment variables you need to set. Setting your environment variables tells Docker which IP address your Coral frontend will have, as well as other information such as your MongoDB username and password.\n\n\nexport FRONTEND_HOST=\n\nexport GAID_VALUE=xxxx\nexport AUTH_TOKEN_VALUE=xxxx\nexport RABBIT_USER=rabbitmq\nexport RABBIT_PASS=welcome\n# mongo:\nexport MONGO_AUTHDB=admin\nexport MONGO_USER=coral-user\nexport MONGO_PASS=welcome\nexport MONGO_DB=coral\n\n#elkhorn\nexport accessKeyId=xxx\nexport secretAccessKey=xxx\nexport pillarHost=xxx\nexport basicAuthorization=xxx\nexport bucket=xxx\nexport region=xxx\n# sponge:\nexport STRATEGY_CONF=/usr/local/strategy.json\n\n\n\n\nRequired edits:\n\n\n\n\nFRONTEND_HOST\n: set to your desired IP address for the front end. For this example, we will use \n192.168.99.100\n.\n\n\n\n\nOptional edits:\n\n\n\n\nGAID_VALUE=xxxx\n: If you\nre using Google Analytics, set your token at \nexport GAID_VALUE=xxxx\n. Otherwise, delete or comment out this line.\n\n\nexport AUTH_TOKEN_VALUE=xxxx\n: If you\nre using a custom auth token, set that at \nexport AUTH_TOKEN_VALUE=xxxx\n. Otherwise, delete or comment out this line.\n\n\n\n\nFinally, while inside the \nProxy\n directory, run the following command to export your edited variables and set the environment variables.\n\n\nsource env.conf\n\n\n\n\nSpin up the Docker container\n\n\nThe very first time that you spin up the Docker container, this will be a multi-step process:\n\n\n1. Spin up the Docker container:\n\n\ndocker-compose -f docker-compose.yml up -d\n\n\n\n\nThe \ndocker-compose.yml\n file contained in the docker-setup directory contains all the instructions that Docker Compose needs to set up the Coral Ecosystem.\n\n\n2. \nNote:\n If this is your first time spinning up the Docker container, Docker is going to download and install a number of Docker images first. These can be fairly large (~500MB per image), so it may take a few minutes.\n\n\n3. Once all Docker images have been downloaded, you\nll see something like the following in your terminal:\n\n\nCreating proxy_mongodata_1\nCreating proxy_sponge_1\nCreating proxy_rabbitmq_1\nCreating proxy_atollapp_1\nCreating proxy_xeniaapp_1\nCreating proxy_pillarapp_1\nCreating proxy_cayapp_1\nCreating proxy_proxy_1\n\n\n\n\n4. Now, shut everything down with the Docker \ndown\n command. This up-down-up sequence initializes authentication on MongoDB.\n\n\ndocker-compose -f docker-compose.yml down\n\n\n\n\n5. Finally, start the Docker container back up. In future (now that the Docker images have all been downloaded and set up), you can simply use this command to start your Docker container.\n\n\ndocker-compose -f docker-compose.yml up -d\n\n\n\n\nTest it out\n\n\nTo make sure it\ns working, try to hit the front-end URL in your browser. This is the URL you specified as \nFRONTEND_HOST\n in the \nenv.conf\n setup above; in this case, \nhttps://192.168.99.100\n.\n\n\nTroubleshooting\n\n\nViewing running Docker containers\n\n\nTo see all of the Docker containers currently running, use the command \ndocker ps\n (you can read more about this command and its options at the \nDocker website\n).\n\n\ndocker ps\n\n\n\n\nYou should have all of the following containers running:\n\n\n\n\nnginx:stable-alpine\n\n\ncoralproject/cay\n\n\ncoralproject/elkhorn\n\n\ncoralproject/pillar\n\n\ncoralproject/atoll\n\n\ncoralproject/xenia\n\n\ncoralproject/sponge\n\n\nrabbitmq:management\n\n\ncoralproject/mongodata\n\n\n\n\nViewing installed Docker images\n\n\nTo see all of the Docker images you have installed, use the command \ndocker images\n (you can read more about this command and its options at the \nDocker website\n).\n\n\ndocker images\n\n\n\n\nViewing Docker logs\n\n\nTo view Docker logs for a container, use the command \ndocker logs \ncontainer id\n (you can read more about this command and its options at the \nDocker website\n).\n\n\nFirst you have to find the container id:\n\n\ndocker ps\n\n\n\n\nThen use the container id to view the logs:\n\n\ndocker logs e0bbd7be19c7\n\n\n\n\nOperating system requirements\n\n\nOn Mac, we support OS X El Capitan (10.11) or newer. If you are on an older OS, you may have to upgrade.\n\n\nUninstalling Docker images", 
             "title": "Installing Coral Ecosystem"
         }, 
         {
-            "location": "/quickstart/install/#all-in-one-docker-installation", 
-            "text": "", 
-            "title": "All-in-One Docker Installation"
+            "location": "/quickstart/install/#all-in-one-docker-compose-installation", 
+            "text": "The all-in-one Docker Compose installation is a quick, easy, packaged solution that requires few steps and should get all components up and running quickly. The downside is that this may not scale well, as everything is installed on one server. After a certain number of users (perhaps 50 or so), the server could become overloaded.  You can read about the different types of installation options on the  developer introduction page .", 
+            "title": "All-in-One Docker Compose Installation"
         }, 
         {
             "location": "/quickstart/install/#before-you-begin", 
-            "text": "You must have the following items installed and running:   MongoDB Server : You can find instructions on installing MongoDB  on the MongoDB website .  RabbitMQ : You can find instructions on installing RabbitMQ  on the RabbitMQ website .", 
+            "text": "You must have the following items installed and running:   MongoDB Server : You can find instructions on installing MongoDB  on the MongoDB website .  RabbitMQ : You can find instructions on installing RabbitMQ  on the RabbitMQ website .   You should also have the following resources on your machine before installing:   Minimum CPU: 2.0 GHz  Minimum RAM: 4GB  Minimum disk space required: 4GB", 
             "title": "Before you begin"
         }, 
         {
@@ -1436,289 +1471,319 @@
             "title": "Test"
         }, 
         {
-            "location": "/contributions/", 
-            "text": "Contributing to the Coral Project\n\n\nBefore you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project:\n\n\n\n\nReport bugs and request features\n\n\nWrite code\n\n\nWrite and edit documentation\n\n\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
+            "location": "/contribute/", 
+            "text": "Contributing to the Coral Project\n\n\nWelcome! We\nre delighted to have you contribute to the Coral Project. Before you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project: you don\nt have to be a developer to help out.\n\n\nContributing without programming\n\n\nWe need help with a number of non-programming tasks:\n\n\n\n\nReport bugs\n\n\nRequest features\n\n\nWrite and edit documentation\n\n\n\n\nContributing by coding\n\n\nIf you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.\n\n\n\n\nWrite code\n\n\n\n\nContributing to the community\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
             "title": "Introduction"
         }, 
         {
-            "location": "/contributions/#contributing-to-the-coral-project", 
-            "text": "Before you get started, be sure to review our  Code of Conduct , which governs all development and project contributions.  There are a number of ways that you can contribute to the Coral Project:   Report bugs and request features  Write code  Write and edit documentation   Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
+            "location": "/contribute/#contributing-to-the-coral-project", 
+            "text": "Welcome! We re delighted to have you contribute to the Coral Project. Before you get started, be sure to review our  Code of Conduct , which governs all development and project contributions.  There are a number of ways that you can contribute to the Coral Project: you don t have to be a developer to help out.", 
             "title": "Contributing to the Coral Project"
         }, 
         {
-            "location": "/contributions/", 
-            "text": "Contributing to the Coral Project\n\n\nBefore you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project:\n\n\n\n\nReport bugs and request features\n\n\nWrite code\n\n\nWrite and edit documentation\n\n\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
+            "location": "/contribute/#contributing-without-programming", 
+            "text": "We need help with a number of non-programming tasks:   Report bugs  Request features  Write and edit documentation", 
+            "title": "Contributing without programming"
+        }, 
+        {
+            "location": "/contribute/#contributing-by-coding", 
+            "text": "If you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.   Write code", 
+            "title": "Contributing by coding"
+        }, 
+        {
+            "location": "/contribute/#contributing-to-the-community", 
+            "text": "Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
+            "title": "Contributing to the community"
+        }, 
+        {
+            "location": "/contribute/", 
+            "text": "Contributing to the Coral Project\n\n\nWelcome! We\nre delighted to have you contribute to the Coral Project. Before you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project: you don\nt have to be a developer to help out.\n\n\nContributing without programming\n\n\nWe need help with a number of non-programming tasks:\n\n\n\n\nReport bugs\n\n\nRequest features\n\n\nWrite and edit documentation\n\n\n\n\nContributing by coding\n\n\nIf you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.\n\n\n\n\nWrite code\n\n\n\n\nContributing to the community\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
             "title": "Introduction"
         }, 
         {
-            "location": "/contributions/#contributing-to-the-coral-project", 
-            "text": "Before you get started, be sure to review our  Code of Conduct , which governs all development and project contributions.  There are a number of ways that you can contribute to the Coral Project:   Report bugs and request features  Write code  Write and edit documentation   Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
+            "location": "/contribute/#contributing-to-the-coral-project", 
+            "text": "Welcome! We re delighted to have you contribute to the Coral Project. Before you get started, be sure to review our  Code of Conduct , which governs all development and project contributions.  There are a number of ways that you can contribute to the Coral Project: you don t have to be a developer to help out.", 
             "title": "Contributing to the Coral Project"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/", 
+            "location": "/contribute/#contributing-without-programming", 
+            "text": "We need help with a number of non-programming tasks:   Report bugs  Request features  Write and edit documentation", 
+            "title": "Contributing without programming"
+        }, 
+        {
+            "location": "/contribute/#contributing-by-coding", 
+            "text": "If you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.   Write code", 
+            "title": "Contributing by coding"
+        }, 
+        {
+            "location": "/contribute/#contributing-to-the-community", 
+            "text": "Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
+            "title": "Contributing to the community"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/", 
             "text": "Writing Documentation\n\n\nThis section explains how the community can contribute to the Coral Project documentation.\n\n\nYou can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!\n\n\nHere is how our documentation works:\n\n\n\n\nThe source documentation lives in GitHub at \nhttps://github.com/coralproject/docs/\n.\n\n\nThe documentation is hosted at \nRead the Docs\n.\n\n\nWhen the documentation is updated and pushed to the GitHub repository, this triggers a build of the Read the Docs site.\n\n\n\n\nGetting the documentation\n\n\nAll of the documentation for the Coral Project \nresides in GitHub\n in the \ndocs\n repository.\n\n\nTo get a local version of the documentation, clone the repository:\n\n\ngit clone https://github.com/coralproject/docs.git\n\n\n\n\nIf you haven\nt worked with Git before, you can find \ninstructions on downloading it here\n.\n\n\nGetting started with MkDocs\n\n\nThe Coral Project\ns documentation uses the \nMkDocs\n documentation system, which uses Markdown to format text. The \nMkDocs website\n contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around, \nlike this one\n.\n\n\nHow the documentation is organized\n\n\nThe documentation is organized into several categories:\n\n\n\n\nIntroduction\n: This offers a general overview of the Coral Project and its different components.\n\n\nDeveloper Guide\n: This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.\n\n\nUser Guide\n: This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.\n\n\nContribute\n: This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).\n\n\nFAQ\n\n\n\n\nWriting style\n\n\nThe key thing to remember when writing documentation is to be extremely explicit and detailed. Do not assume knowledge!\n\n\nDo not assume knowledge\n\n\n\n\nWhenever possible, include an actual instruction.\n\n\nGood:\n\n\nIf there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!\n\n\n\n\n\n\nShow \nexpected results\n wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.\n\n\nIf there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.\n\n\nDo not merely explain HOW to do something, but also WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.\n\n\n\n\nCommands and code blocks\n\n\n\n\nEnclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.\n\n\nBe sure you are using universal command line commands, not shortcuts available in some shells!\n\n\nGood: \nmkdir exampledirectory\n\n\nBad: \nmd exampledirectory\n\n\n\n\n\n\n\n\nThird-party components\n\n\nIs there a third-party component the user needs to set up (for instance, MongoDB)?\n\n\n\n\nDon\nt include all setup instructions, but do link to the setup instructions on the website of the third-party app in question.\n\n\nBe sure to detail any specific instructions they will need to integrate this third-party component into the system.\n\n\nCurrently, much of this \nthird party setup\n information resides in the \nDeveloper Setup\n document. This reduces duplication if there is a component that needs to be set up for multiple items.\n\n\n\n\nMarkup specific style\n\n\n\n\nWhen adding headlines and section dividers, keep in mind that H1 (#) and H2 (##) text shows up in the Table of Contents. H3 (###) and below does not.\n\n\nTo avoid making the ToC too cluttered, try to only use H2 (##) for key large sections.\n\n\n\n\nInstallation instructions\n\n\n\n\nBe sure to include \nevery single step\n. Preferably copy paste.\n\n\nWhen working from the command line, include every step in code blocks.\n\n\n\n\nAPI documentation\n\n\nWhen documenting a REST-style API, such as the \nPillar API\n, there are certain pieces of information to include. The \nPillar API documentation\n is a useful template.\n\n\n\n\nCreate an initial table that lists endpoints, which contains:\n\n\nThe endpoint URL.\n\n\nThe HTTP verb for that endpoint (GET, POST).\n\n\nThe basic functionality description for that endpoint. Make this into a targeted link that jumps to the full description for that endpoint.\n\n\n\n\n\n\nCreate a full description for each endpoint. You can see the \nGet Users\n Pillar endpoint for an example). Each description should include:\n\n\nThe parameters for the endpoint (include the parameter name, whether it is required or optional, the type, and the description).\n\n\nAn example call.\n\n\nThe response for the example call (whether that is a JSON object, or simply a status response).\n\n\n\n\n\n\n\n\nTerminology\n\n\nHere are some commonly used terms:\n\n\nSoftware specific\n\n\n\n\nCoral\n: Refers to the Coral product, which includes the three components Trust, Ask, and Talk.\n\n\nCoral Project\n: Refers to the project of building and crafting the Coral product.\n\n\nCoral Ecosystem\n: Refers to all of the pieces that make up Coral from a more technical or development perspective: includes all the technical components such as Pillar, Sponge, and Cay.\n\n\n\n\nUsers\n\n\n\n\nDevelopers\n: Refers to the technical users of Coral who will be installing Coral and working with the backend. Also refers to open-source contributors.\n\n\nEnd Users\n: Refers to anyone who will be interacting with the Coral front end. Examples of end users are publishers, moderators, journalists, and readers.\n\n\n\n\nRelease notes\n\n\nImproving the documentation\n\n\nImprovements are welcomed! Did you perform an installation, and found some of the language or instructions confusing or missing? Help us fix it!\n\n\nTranslating documentation", 
             "title": "Writing documentation"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#writing-documentation", 
+            "location": "/contribute/documentation/writing_documentation/#writing-documentation", 
             "text": "This section explains how the community can contribute to the Coral Project documentation.  You can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!  Here is how our documentation works:   The source documentation lives in GitHub at  https://github.com/coralproject/docs/ .  The documentation is hosted at  Read the Docs .  When the documentation is updated and pushed to the GitHub repository, this triggers a build of the Read the Docs site.", 
             "title": "Writing Documentation"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#getting-the-documentation", 
+            "location": "/contribute/documentation/writing_documentation/#getting-the-documentation", 
             "text": "All of the documentation for the Coral Project  resides in GitHub  in the  docs  repository.  To get a local version of the documentation, clone the repository:  git clone https://github.com/coralproject/docs.git  If you haven t worked with Git before, you can find  instructions on downloading it here .", 
             "title": "Getting the documentation"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#getting-started-with-mkdocs", 
+            "location": "/contribute/documentation/writing_documentation/#getting-started-with-mkdocs", 
             "text": "The Coral Project s documentation uses the  MkDocs  documentation system, which uses Markdown to format text. The  MkDocs website  contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around,  like this one .", 
             "title": "Getting started with MkDocs"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#how-the-documentation-is-organized", 
+            "location": "/contribute/documentation/writing_documentation/#how-the-documentation-is-organized", 
             "text": "The documentation is organized into several categories:   Introduction : This offers a general overview of the Coral Project and its different components.  Developer Guide : This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.  User Guide : This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.  Contribute : This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).  FAQ", 
             "title": "How the documentation is organized"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#writing-style", 
+            "location": "/contribute/documentation/writing_documentation/#writing-style", 
             "text": "The key thing to remember when writing documentation is to be extremely explicit and detailed. Do not assume knowledge!", 
             "title": "Writing style"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#do-not-assume-knowledge", 
+            "location": "/contribute/documentation/writing_documentation/#do-not-assume-knowledge", 
             "text": "Whenever possible, include an actual instruction.  Good:  If there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!    Show  expected results  wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.  If there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.  Do not merely explain HOW to do something, but also WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.", 
             "title": "Do not assume knowledge"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#commands-and-code-blocks", 
+            "location": "/contribute/documentation/writing_documentation/#commands-and-code-blocks", 
             "text": "Enclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.  Be sure you are using universal command line commands, not shortcuts available in some shells!  Good:  mkdir exampledirectory  Bad:  md exampledirectory", 
             "title": "Commands and code blocks"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#third-party-components", 
+            "location": "/contribute/documentation/writing_documentation/#third-party-components", 
             "text": "Is there a third-party component the user needs to set up (for instance, MongoDB)?   Don t include all setup instructions, but do link to the setup instructions on the website of the third-party app in question.  Be sure to detail any specific instructions they will need to integrate this third-party component into the system.  Currently, much of this  third party setup  information resides in the  Developer Setup  document. This reduces duplication if there is a component that needs to be set up for multiple items.", 
             "title": "Third-party components"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#markup-specific-style", 
+            "location": "/contribute/documentation/writing_documentation/#markup-specific-style", 
             "text": "When adding headlines and section dividers, keep in mind that H1 (#) and H2 (##) text shows up in the Table of Contents. H3 (###) and below does not.  To avoid making the ToC too cluttered, try to only use H2 (##) for key large sections.", 
             "title": "Markup specific style"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#installation-instructions", 
+            "location": "/contribute/documentation/writing_documentation/#installation-instructions", 
             "text": "Be sure to include  every single step . Preferably copy paste.  When working from the command line, include every step in code blocks.", 
             "title": "Installation instructions"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#api-documentation", 
+            "location": "/contribute/documentation/writing_documentation/#api-documentation", 
             "text": "When documenting a REST-style API, such as the  Pillar API , there are certain pieces of information to include. The  Pillar API documentation  is a useful template.   Create an initial table that lists endpoints, which contains:  The endpoint URL.  The HTTP verb for that endpoint (GET, POST).  The basic functionality description for that endpoint. Make this into a targeted link that jumps to the full description for that endpoint.    Create a full description for each endpoint. You can see the  Get Users  Pillar endpoint for an example). Each description should include:  The parameters for the endpoint (include the parameter name, whether it is required or optional, the type, and the description).  An example call.  The response for the example call (whether that is a JSON object, or simply a status response).", 
             "title": "API documentation"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#terminology", 
+            "location": "/contribute/documentation/writing_documentation/#terminology", 
             "text": "Here are some commonly used terms:", 
             "title": "Terminology"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#software-specific", 
+            "location": "/contribute/documentation/writing_documentation/#software-specific", 
             "text": "Coral : Refers to the Coral product, which includes the three components Trust, Ask, and Talk.  Coral Project : Refers to the project of building and crafting the Coral product.  Coral Ecosystem : Refers to all of the pieces that make up Coral from a more technical or development perspective: includes all the technical components such as Pillar, Sponge, and Cay.", 
             "title": "Software specific"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#users", 
+            "location": "/contribute/documentation/writing_documentation/#users", 
             "text": "Developers : Refers to the technical users of Coral who will be installing Coral and working with the backend. Also refers to open-source contributors.  End Users : Refers to anyone who will be interacting with the Coral front end. Examples of end users are publishers, moderators, journalists, and readers.", 
             "title": "Users"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#release-notes", 
+            "location": "/contribute/documentation/writing_documentation/#release-notes", 
             "text": "", 
             "title": "Release notes"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#improving-the-documentation", 
+            "location": "/contribute/documentation/writing_documentation/#improving-the-documentation", 
             "text": "Improvements are welcomed! Did you perform an installation, and found some of the language or instructions confusing or missing? Help us fix it!", 
             "title": "Improving the documentation"
         }, 
         {
-            "location": "/contributions/documentation/writing_documentation/#translating-documentation", 
+            "location": "/contribute/documentation/writing_documentation/#translating-documentation", 
             "text": "", 
             "title": "Translating documentation"
         }, 
         {
-            "location": "/contributions/reporting_bugs/", 
-            "text": "Reporting bugs and requesting features\n\n\nBefore reporting a bug or requesting a new feature, please consider these general points:\n\n\n\n\nCheck that someone hasn\u2019t already filed the bug or feature request by searching the \nIssues\n for the repo in question.\n\n\nDon\u2019t reopen issues that have been marked \u201cwontfix\u201d by a core developer. This mark means that the decision has been made that we can\u2019t or won\u2019t fix this particular issue.\n\n\n\n\nReporting bugs\n\n\nComplete, reproducible, specific bug reports are very helpful. When writing a bug report, be sure to include the following:\n\n\n\n\nA clear, concise description of the problem.\n\n\nA set of instructions for replicating it. \n\n\n\n\nAdd as much additional debug information as you can, such as: code snippets, test cases, exception backtraces, screenshots, etc. A nice small test case is the best way to report a bug, as it gives us an easy way to confirm the bug quickly.\n\n\nReporting user interface bugs and features\n\n\nIf your bug or feature request touches on anything visual in nature, there are a few additional guidelines to follow:\n\n\n\n\nInclude screenshots in your ticket which are the visual equivalent of a minimal testcase.\n\n\nIf the issue is difficult to show off using a still image, consider capturing a brief screencast. If possible, capture only the relevant area of the screen.\n\n\n\n\nRequesting features\n\n\nHere are some tips on how to make a request most effectively:\n\n\n\n\nDescribe clearly and concisely what the missing feature is and how you\u2019d like to see it implemented. Include example code (non-functional is OK) if possible.\n\n\nExplain why you\u2019d like the feature. In some cases this is obvious, but an explanation can help determine why and how the feature will be useful.", 
+            "location": "/contribute/reporting_bugs/", 
+            "text": "Reporting bugs and requesting features\n\n\nBefore reporting a bug or requesting a new feature, please consider these general points:\n\n\n\n\nCheck that someone hasn\u2019t already filed the bug or feature request by searching the \nIssues\n for the repo in question.\n\n\nDon\u2019t reopen issues that have been marked \u201cwontfix\u201d by a core developer. This mark means that the decision has been made that we can\u2019t or won\u2019t fix this particular issue.\n\n\n\n\nReporting bugs\n\n\nWe use GitHub Issues to track bugs. Each Coral component app has its own repository, but since it may not be clear precisely which component the bug is originating from, we use the Reef repository to track bugs.\n\n\nComplete, reproducible, specific bug reports are very helpful. When writing a bug report, be sure to include the following:\n\n\n\n\nA clear, concise description of the problem.\n\n\nA set of instructions for replicating it.\n\n\n\n\nAdd as much additional debug information as you can, such as: code snippets, test cases, exception backtraces, screenshots, etc. A nice small test case is the best way to report a bug, as it gives us an easy way to confirm the bug quickly.\n\n\nReporting user interface bugs and features\n\n\nIf your bug or feature request touches on anything visual in nature, there are a few additional guidelines to follow:\n\n\n\n\nInclude screenshots in your ticket which are the visual equivalent of a minimal testcase.\n\n\nIf the issue is difficult to show off using a still image, consider capturing a brief screencast. If possible, capture only the relevant area of the screen.\n\n\n\n\nRequesting features\n\n\nHere are some tips on how to make a request most effectively:\n\n\n\n\nDescribe clearly and concisely what the missing feature is and how you\u2019d like to see it implemented. Include example code (non-functional is OK) if possible.\n\n\nExplain why you\u2019d like the feature. In some cases this is obvious, but an explanation can help determine why and how the feature will be useful.", 
             "title": "Reporting bugs and requesting features"
         }, 
         {
-            "location": "/contributions/reporting_bugs/#reporting-bugs-and-requesting-features", 
+            "location": "/contribute/reporting_bugs/#reporting-bugs-and-requesting-features", 
             "text": "Before reporting a bug or requesting a new feature, please consider these general points:   Check that someone hasn\u2019t already filed the bug or feature request by searching the  Issues  for the repo in question.  Don\u2019t reopen issues that have been marked \u201cwontfix\u201d by a core developer. This mark means that the decision has been made that we can\u2019t or won\u2019t fix this particular issue.", 
             "title": "Reporting bugs and requesting features"
         }, 
         {
-            "location": "/contributions/reporting_bugs/#reporting-bugs", 
-            "text": "Complete, reproducible, specific bug reports are very helpful. When writing a bug report, be sure to include the following:   A clear, concise description of the problem.  A set of instructions for replicating it.    Add as much additional debug information as you can, such as: code snippets, test cases, exception backtraces, screenshots, etc. A nice small test case is the best way to report a bug, as it gives us an easy way to confirm the bug quickly.", 
+            "location": "/contribute/reporting_bugs/#reporting-bugs", 
+            "text": "We use GitHub Issues to track bugs. Each Coral component app has its own repository, but since it may not be clear precisely which component the bug is originating from, we use the Reef repository to track bugs.  Complete, reproducible, specific bug reports are very helpful. When writing a bug report, be sure to include the following:   A clear, concise description of the problem.  A set of instructions for replicating it.   Add as much additional debug information as you can, such as: code snippets, test cases, exception backtraces, screenshots, etc. A nice small test case is the best way to report a bug, as it gives us an easy way to confirm the bug quickly.", 
             "title": "Reporting bugs"
         }, 
         {
-            "location": "/contributions/reporting_bugs/#reporting-user-interface-bugs-and-features", 
+            "location": "/contribute/reporting_bugs/#reporting-user-interface-bugs-and-features", 
             "text": "If your bug or feature request touches on anything visual in nature, there are a few additional guidelines to follow:   Include screenshots in your ticket which are the visual equivalent of a minimal testcase.  If the issue is difficult to show off using a still image, consider capturing a brief screencast. If possible, capture only the relevant area of the screen.", 
             "title": "Reporting user interface bugs and features"
         }, 
         {
-            "location": "/contributions/reporting_bugs/#requesting-features", 
+            "location": "/contribute/reporting_bugs/#requesting-features", 
             "text": "Here are some tips on how to make a request most effectively:   Describe clearly and concisely what the missing feature is and how you\u2019d like to see it implemented. Include example code (non-functional is OK) if possible.  Explain why you\u2019d like the feature. In some cases this is obvious, but an explanation can help determine why and how the feature will be useful.", 
             "title": "Requesting features"
         }, 
         {
-            "location": "/contributions/supporting_the_community/", 
-            "text": "Organizing Events\n\n\nGoals\n\n\n\n\nFire up discussion on community\n\n\nShare our research/discussion on healthy community\n\n\nShare tools we are building\n\n\n\n\nActivities\n\n\nBreak the Ice Activity\n\n\nDiscuss:\n\n\n\n\nname / any organization\n\n\nwhat community you participate in?\n\n\n\n\nWrite down sticky notes:\n\n\n\n\nwhat makes that a healthy community\n\n\n\n\nSpectogram\n\n\nBrainstorm group\n\n\nLighting Talks", 
-            "title": "Supporting the community"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#organizing-events", 
-            "text": "", 
-            "title": "Organizing Events"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#goals", 
-            "text": "Fire up discussion on community  Share our research/discussion on healthy community  Share tools we are building", 
-            "title": "Goals"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#activities", 
-            "text": "", 
-            "title": "Activities"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#break-the-ice-activity", 
-            "text": "Discuss:   name / any organization  what community you participate in?   Write down sticky notes:   what makes that a healthy community", 
-            "title": "Break the Ice Activity"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#spectogram", 
-            "text": "", 
-            "title": "Spectogram"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#brainstorm-group", 
-            "text": "", 
-            "title": "Brainstorm group"
-        }, 
-        {
-            "location": "/contributions/supporting_the_community/#lighting-talks", 
-            "text": "", 
-            "title": "Lighting Talks"
-        }, 
-        {
-            "location": "/contributions/contributor_license_agreement/", 
-            "text": "To Be Determined", 
-            "title": "Contributor License Agreement"
-        }, 
-        {
-            "location": "/contributions/contributor_license_agreement/#to-be-determined", 
-            "text": "", 
-            "title": "To Be Determined"
-        }, 
-        {
-            "location": "/contributions/development/writing_code/", 
+            "location": "/contribute/development/writing_code/", 
             "text": "Writing Code\n\n\nSo you\u2019d like to write some code to improve the Coral Project? Great!\n\n\nBefore you begin\n\n\nBefore writing any code with the intention of merging into master, ensure the work you\nre doing has an GitHub issue and try in good faith to engage the community in conversation in the issue feed. Here is a checklist to follow before starting:\n\n\n\n\nCheck the FAQ to see if your issue has already been addressed.\n\n\nCheck the GitHub issues to see if an issue already exists for the work you want to do, and to make sure that there isn\nt already someone working on it.\n\n\nIf there isn\nt already someone working on it, then leave a comment to let everyone know that you are starting work on it.\n\n\nIf someone is already working on it, consider collaborating with them.\n\n\n\n\n\n\nIf no issue exists, then create an issue for it before getting started. You can find more information on writing a detailed issue \nhere\n.\n\n\n\n\nWriting code\n\n\nOnce you\nve followed the checklist above, browse the following sections to find out how to give your code the best chance of being included in the Coral Project.\n\n\n\n\nCoding style\n\n\nWorking with Git and GitHub", 
             "title": "Writing code"
         }, 
         {
-            "location": "/contributions/development/writing_code/#writing-code", 
+            "location": "/contribute/development/writing_code/#writing-code", 
             "text": "So you\u2019d like to write some code to improve the Coral Project? Great!", 
             "title": "Writing Code"
         }, 
         {
-            "location": "/contributions/development/writing_code/#before-you-begin", 
+            "location": "/contribute/development/writing_code/#before-you-begin", 
             "text": "Before writing any code with the intention of merging into master, ensure the work you re doing has an GitHub issue and try in good faith to engage the community in conversation in the issue feed. Here is a checklist to follow before starting:   Check the FAQ to see if your issue has already been addressed.  Check the GitHub issues to see if an issue already exists for the work you want to do, and to make sure that there isn t already someone working on it.  If there isn t already someone working on it, then leave a comment to let everyone know that you are starting work on it.  If someone is already working on it, consider collaborating with them.    If no issue exists, then create an issue for it before getting started. You can find more information on writing a detailed issue  here .", 
             "title": "Before you begin"
         }, 
         {
-            "location": "/contributions/development/writing_code/#writing-code_1", 
+            "location": "/contribute/development/writing_code/#writing-code_1", 
             "text": "Once you ve followed the checklist above, browse the following sections to find out how to give your code the best chance of being included in the Coral Project.   Coding style  Working with Git and GitHub", 
             "title": "Writing code"
         }, 
         {
-            "location": "/contributions/development/working_with_github/", 
+            "location": "/contribute/development/working_with_github/", 
             "text": "Working With GitHub\n\n\nThis section explains how open source contributors can contribute code to the Coral Project via pull requests.\n\n\nFor a general primer on contributing to open source projects, GitHub has created \na nice guide to contributing to open source\n.\n\n\nThe fundamentals (which are expanded on below) are:\n\n\n\n\nFork the project \n clone locally.\n\n\nCreate an upstream remote and sync your local copy before you branch.\n\n\nBranch for each separate piece of work.\n\n\nDo the work, and write good commit messages.\n\n\nPush to your origin repository.\n\n\nCreate a new PR in GitHub.\n\n\nRespond to any code review feedback.\n\n\n\n\nInstalling Git\n\n\nFirst, \ndownload and install Git\n. You can read more about Git on \ntheir website\n.\n\n\nAfter installing Git, the first thing you should do is setup your name and email:\n\n\ngit config --global user.name \nYour Real Name\n\ngit config --global user.email \nyou@email.com\n\n\n\n\n\nNote that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.\n\n\nSetting up local repository\n\n\nFirst, you need to fork the project: navigate to to the repo in GitHub you want to contribute to and press the \nFork\n button. This will create a copy of the repository in your own GitHub account and you\nll see a note that it\ns been forked underneath the project name.\n\n\nNow create a local copy of that fork (in this example, the \ndocs\n repository is the one being cloned):\n\n\ngit clone https://github.com/coralproject/docs.git\n\n\n\n\nThis will create a new directory \ndocs\n, containing a clone of your forked GitHub repository. Switch to the project\ns new directory:\n\n\ncd docs\n\n\n\n\nYou will now need to setup coralproject/docs as an \nupstream\n remote. This connects your local repository to the original \nupstream\n source repository (essentially, telling Git that the original reference repository is the source of your local forked copy).\n\n\ngit remote add upstream https://github.com/coralproject/docs.git\ngit fetch upstream\n\n\n\n\nIt\ns a good idea to regularly pull in changes from \nupstream\n so that when you submit your pull request, merge conflicts will be less likely. You can find more detailed instructions on \nsyncing a fork from GitHub\n.    \n\n\nWork on an issue\n\n\nWhen working on an issue, create a new branch for the work. Name the branch for the issue you are working on, capitalizing the word \nIssue\n (for example, \nIssue#82\n).\n\n\ngit checkout master\ngit pull upstream master \n git push origin master\ngit checkout -b Issue#82\n\n\n\n\nWhat this does: First, we ensure we\nre on the master branch. Then, the git pull command will sync our local copy with the upstream project and the git push syncs it to our forked GitHub project. Finally, we create our new branch.\n\n\nNow you can start coding! Ensure that you only fix the thing you\nre working on (don\nt get sidetracked into fixing other little things you see along the way).\n\n\nCommitting\n\n\nWhen committing, be sure to commit in logical blocks and add meaningful commit messages.\n\n\ngit commit -m 'Added instructions for commit messages'\n\n\n\n\nSome guidelines to follow:\n\n\n\n\nNever force-push your changes.\n\n\nWrite your commit messages in the past tense, not present tense.\n\n\nGood: \nAdded instructions for commit messages\n\n\nBad: \nAdd instructions for commit messages\n\n\n\n\n\n\nFor commits to a branch, prefix the commit message with the branch name. For example: \u201cIssue#82 Added instructions for commit messages.\u201d\n\n\n\n\nCreate the pull request\n\n\nTo create a PR you first need to push your branch to the origin remote.\n\n\nTo push a new branch:\n\n\ngit push origin Issue#82\n\n\n\n\nWhen you go to your GitHub page, you will notice that a new branch has been created, along with a button that says \nCompare and Pull Request.\n When you feel ready to create a pull request, go ahead and push the button.\n\n\nOn the \nOpen a pull request\n page, ensure that the \nbase fork\n points to the correct repository and branch. Then ensure that you provide a good, succinct title for your pull request and explain why you have created it in the description box.\n\n\nScroll down to see the diff of your changes. Double check that it contains what you expect.\n\n\nOnce you are happy, press the \nCreate pull request\n button.\n\n\nReview by the maintainers\n\n\nOnce you\nve created your pull request, recruit a code reviewer to take a look.\n\n\nThe reviewer will review and potentially offer suggestions. If that happens, make the suggested changes, commit, and push your changes. You may go through several cycles of reviews, changes, and updates.\n\n\nOnce both of you agree that the code is done, it\ns time to merge.\n\n\nMerging\n\n\nThe code reviewer will merge the pull request. If conflicts emerge, TODO.\n\n\nTODO: Add information about tagging.\n\n\nOnce the merge is complete, the branch can be deleted.\n\n!\n\n\nExceptions\n\n\n\n\nUpdates to documentation may be merged directly into master (instead of going through a branch).\n\n\nSmall bugs or tweaks caught by the maintainer post-merge may be merged directly into master.\n\n\nThese commits should include the issue number in the commit message for reference.", 
             "title": "Development workflow"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#working-with-github", 
+            "location": "/contribute/development/working_with_github/#working-with-github", 
             "text": "This section explains how open source contributors can contribute code to the Coral Project via pull requests.  For a general primer on contributing to open source projects, GitHub has created  a nice guide to contributing to open source .  The fundamentals (which are expanded on below) are:   Fork the project   clone locally.  Create an upstream remote and sync your local copy before you branch.  Branch for each separate piece of work.  Do the work, and write good commit messages.  Push to your origin repository.  Create a new PR in GitHub.  Respond to any code review feedback.", 
             "title": "Working With GitHub"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#installing-git", 
+            "location": "/contribute/development/working_with_github/#installing-git", 
             "text": "First,  download and install Git . You can read more about Git on  their website .  After installing Git, the first thing you should do is setup your name and email:  git config --global user.name  Your Real Name \ngit config --global user.email  you@email.com   Note that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.", 
             "title": "Installing Git"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#setting-up-local-repository", 
+            "location": "/contribute/development/working_with_github/#setting-up-local-repository", 
             "text": "First, you need to fork the project: navigate to to the repo in GitHub you want to contribute to and press the  Fork  button. This will create a copy of the repository in your own GitHub account and you ll see a note that it s been forked underneath the project name.  Now create a local copy of that fork (in this example, the  docs  repository is the one being cloned):  git clone https://github.com/coralproject/docs.git  This will create a new directory  docs , containing a clone of your forked GitHub repository. Switch to the project s new directory:  cd docs  You will now need to setup coralproject/docs as an  upstream  remote. This connects your local repository to the original  upstream  source repository (essentially, telling Git that the original reference repository is the source of your local forked copy).  git remote add upstream https://github.com/coralproject/docs.git\ngit fetch upstream  It s a good idea to regularly pull in changes from  upstream  so that when you submit your pull request, merge conflicts will be less likely. You can find more detailed instructions on  syncing a fork from GitHub .", 
             "title": "Setting up local repository"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#work-on-an-issue", 
+            "location": "/contribute/development/working_with_github/#work-on-an-issue", 
             "text": "When working on an issue, create a new branch for the work. Name the branch for the issue you are working on, capitalizing the word  Issue  (for example,  Issue#82 ).  git checkout master\ngit pull upstream master   git push origin master\ngit checkout -b Issue#82  What this does: First, we ensure we re on the master branch. Then, the git pull command will sync our local copy with the upstream project and the git push syncs it to our forked GitHub project. Finally, we create our new branch.  Now you can start coding! Ensure that you only fix the thing you re working on (don t get sidetracked into fixing other little things you see along the way).", 
             "title": "Work on an issue"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#committing", 
+            "location": "/contribute/development/working_with_github/#committing", 
             "text": "When committing, be sure to commit in logical blocks and add meaningful commit messages.  git commit -m 'Added instructions for commit messages'  Some guidelines to follow:   Never force-push your changes.  Write your commit messages in the past tense, not present tense.  Good:  Added instructions for commit messages  Bad:  Add instructions for commit messages    For commits to a branch, prefix the commit message with the branch name. For example: \u201cIssue#82 Added instructions for commit messages.\u201d", 
             "title": "Committing"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#create-the-pull-request", 
+            "location": "/contribute/development/working_with_github/#create-the-pull-request", 
             "text": "To create a PR you first need to push your branch to the origin remote.  To push a new branch:  git push origin Issue#82  When you go to your GitHub page, you will notice that a new branch has been created, along with a button that says  Compare and Pull Request.  When you feel ready to create a pull request, go ahead and push the button.  On the  Open a pull request  page, ensure that the  base fork  points to the correct repository and branch. Then ensure that you provide a good, succinct title for your pull request and explain why you have created it in the description box.  Scroll down to see the diff of your changes. Double check that it contains what you expect.  Once you are happy, press the  Create pull request  button.", 
             "title": "Create the pull request"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#review-by-the-maintainers", 
+            "location": "/contribute/development/working_with_github/#review-by-the-maintainers", 
             "text": "Once you ve created your pull request, recruit a code reviewer to take a look.  The reviewer will review and potentially offer suggestions. If that happens, make the suggested changes, commit, and push your changes. You may go through several cycles of reviews, changes, and updates.  Once both of you agree that the code is done, it s time to merge.", 
             "title": "Review by the maintainers"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#merging", 
+            "location": "/contribute/development/working_with_github/#merging", 
             "text": "The code reviewer will merge the pull request. If conflicts emerge, TODO.  TODO: Add information about tagging.  Once the merge is complete, the branch can be deleted. !", 
             "title": "Merging"
         }, 
         {
-            "location": "/contributions/development/working_with_github/#exceptions", 
+            "location": "/contribute/development/working_with_github/#exceptions", 
             "text": "Updates to documentation may be merged directly into master (instead of going through a branch).  Small bugs or tweaks caught by the maintainer post-merge may be merged directly into master.  These commits should include the issue number in the commit message for reference.", 
             "title": "Exceptions"
         }, 
         {
-            "location": "/contributions/development/code_style/", 
+            "location": "/contribute/development/code_style/", 
             "text": "Coding Style\n\n\nGo Coding Style\n\n\nUnless explicitly stated, we follow all coding guidelines from the Go\ncommunity. While some of these standards may seem arbitrary, they somehow seem\nto result in a solid, consistent codebase.\n\n\nIt is possible that the code base does not currently comply with these\nguidelines. We are not looking for a massive PR that fixes this, since that\ngoes against the spirit of the guidelines. All new contributions should make a\nbest effort to clean up and make the code base better than they left it.\nObviously, apply your best judgement. Remember, the goal here is to make the\ncode base easier for humans to navigate and understand. Always keep that in\nmind when nudging others to comply.\n\n\nThe rules:\n\n\n\n\nAll code should be formatted with \ngofmt -s\n.\n\n\nAll code should pass the default levels of\n   \ngolint\n.\n\n\nAll code should follow the guidelines covered in \nEffective\n   Go\n and \nGo Code Review\n   Comments\n.\n\n\nComment the code. Tell us the why, the history and the context.\n\n\nDocument \nall\n declarations and methods, even private ones. Declare\n   expectations, caveats and anything else that may be important. If a type\n   gets exported, having the comments already there will ensure it\ns ready.\n\n\nVariable name length should be proportional to it\ns context and no longer.\n   \nnoCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo\n.\n   In practice, short methods will have short variable names and globals will\n   have longer names.\n\n\nNo underscores in package names. If you need a compound name, step back,\n   and re-examine why you need a compound name. If you still think you need a\n   compound name, lose the underscore.\n\n\nNo utils or helpers packages. If a function is not general enough to\n   warrant it\ns own package, it has not been written generally enough to be a\n   part of a util package. Just leave it unexported and well-documented.\n\n\nAll tests should run with \ngo test\n and outside tooling should not be\n   required. No, we don\nt need another unit testing framework. Assertion\n   packages are acceptable if they provide \nreal\n incremental value.\n\n\nEven though we call these \nrules\n above, they are actually just\n    guidelines. Since you\nve read all the rules, you now know that.\n\n\n\n\nIf you are having trouble getting into the mood of idiomatic Go, we recommend\nreading through \nEffective Go\n. The\n\nGo Blog\n is also a great resource. Drinking the\nkool-aid is a lot easier than going thirsty.\n\n\nAttribution: Go Coding Style adopted from the Docker project.\n\n\nUseful Tools when developing\n\n\n\n\ngolint\n\n\ngofmt\n\n\ngoimports\n\n\ngo vet\n\n\nerrcheck\n\n\n\n\nResources\n\n\n\n\nGo Code Review Comments\n\n\nBest Practices for Production Environments\n\n\n12 Factor App\n\n\nTools for working with Go Code\n\n\n\n\nJavascript conventions\n\n\nWe are currently working under the \nAirbnb js react conventions\n.", 
-            "title": "Coding style"
+            "title": "Coding styleguide"
         }, 
         {
-            "location": "/contributions/development/code_style/#coding-style", 
+            "location": "/contribute/development/code_style/#coding-style", 
             "text": "", 
             "title": "Coding Style"
         }, 
         {
-            "location": "/contributions/development/code_style/#go-coding-style", 
+            "location": "/contribute/development/code_style/#go-coding-style", 
             "text": "Unless explicitly stated, we follow all coding guidelines from the Go\ncommunity. While some of these standards may seem arbitrary, they somehow seem\nto result in a solid, consistent codebase.  It is possible that the code base does not currently comply with these\nguidelines. We are not looking for a massive PR that fixes this, since that\ngoes against the spirit of the guidelines. All new contributions should make a\nbest effort to clean up and make the code base better than they left it.\nObviously, apply your best judgement. Remember, the goal here is to make the\ncode base easier for humans to navigate and understand. Always keep that in\nmind when nudging others to comply.  The rules:   All code should be formatted with  gofmt -s .  All code should pass the default levels of\n    golint .  All code should follow the guidelines covered in  Effective\n   Go  and  Go Code Review\n   Comments .  Comment the code. Tell us the why, the history and the context.  Document  all  declarations and methods, even private ones. Declare\n   expectations, caveats and anything else that may be important. If a type\n   gets exported, having the comments already there will ensure it s ready.  Variable name length should be proportional to it s context and no longer.\n    noCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo .\n   In practice, short methods will have short variable names and globals will\n   have longer names.  No underscores in package names. If you need a compound name, step back,\n   and re-examine why you need a compound name. If you still think you need a\n   compound name, lose the underscore.  No utils or helpers packages. If a function is not general enough to\n   warrant it s own package, it has not been written generally enough to be a\n   part of a util package. Just leave it unexported and well-documented.  All tests should run with  go test  and outside tooling should not be\n   required. No, we don t need another unit testing framework. Assertion\n   packages are acceptable if they provide  real  incremental value.  Even though we call these  rules  above, they are actually just\n    guidelines. Since you ve read all the rules, you now know that.   If you are having trouble getting into the mood of idiomatic Go, we recommend\nreading through  Effective Go . The Go Blog  is also a great resource. Drinking the\nkool-aid is a lot easier than going thirsty.  Attribution: Go Coding Style adopted from the Docker project.", 
             "title": "Go Coding Style"
         }, 
         {
-            "location": "/contributions/development/code_style/#useful-tools-when-developing", 
+            "location": "/contribute/development/code_style/#useful-tools-when-developing", 
             "text": "golint  gofmt  goimports  go vet  errcheck", 
             "title": "Useful Tools when developing"
         }, 
         {
-            "location": "/contributions/development/code_style/#resources", 
+            "location": "/contribute/development/code_style/#resources", 
             "text": "Go Code Review Comments  Best Practices for Production Environments  12 Factor App  Tools for working with Go Code", 
             "title": "Resources"
         }, 
         {
-            "location": "/contributions/development/code_style/#javascript-conventions", 
+            "location": "/contribute/development/code_style/#javascript-conventions", 
             "text": "We are currently working under the  Airbnb js react conventions .", 
             "title": "Javascript conventions"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/", 
+            "text": "Organizing Events\n\n\nGoals\n\n\n\n\nFire up discussion on community\n\n\nShare our research/discussion on healthy community\n\n\nShare tools we are building\n\n\n\n\nActivities\n\n\nBreak the Ice Activity\n\n\nDiscuss:\n\n\n\n\nname / any organization\n\n\nwhat community you participate in?\n\n\n\n\nWrite down sticky notes:\n\n\n\n\nwhat makes that a healthy community\n\n\n\n\nSpectogram\n\n\nBrainstorm group\n\n\nLighting Talks", 
+            "title": "Supporting the community"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#organizing-events", 
+            "text": "", 
+            "title": "Organizing Events"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#goals", 
+            "text": "Fire up discussion on community  Share our research/discussion on healthy community  Share tools we are building", 
+            "title": "Goals"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#activities", 
+            "text": "", 
+            "title": "Activities"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#break-the-ice-activity", 
+            "text": "Discuss:   name / any organization  what community you participate in?   Write down sticky notes:   what makes that a healthy community", 
+            "title": "Break the Ice Activity"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#spectogram", 
+            "text": "", 
+            "title": "Spectogram"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#brainstorm-group", 
+            "text": "", 
+            "title": "Brainstorm group"
+        }, 
+        {
+            "location": "/contribute/supporting_the_community/#lighting-talks", 
+            "text": "", 
+            "title": "Lighting Talks"
+        }, 
+        {
+            "location": "/contribute/contributor_license_agreement/", 
+            "text": "To Be Determined", 
+            "title": "Contributor License Agreement"
+        }, 
+        {
+            "location": "/contribute/contributor_license_agreement/#to-be-determined", 
+            "text": "", 
+            "title": "To Be Determined"
         }, 
         {
             "location": "/faq/", 
