@@ -2,73 +2,23 @@
     "docs": [
         {
             "location": "/", 
-            "text": "This is a work in progress. Some sections are missing/incomplete\n\n\nThe Coral Project is an open source project to help publishers of all sizes build better communities around their journalism. \n\n\nWe believe that if journalism is going to remain relevant and connected to the needs of people who live in a democracy, journalists need to do a better job of listening, validating, factchecking, and responding to experiences, opinions, and ideas. \n\n\nTo do this, we need better tools that make everyone feel safe, respected, and heard. We need to focus our resources on identifying positive contributions as well as making negative ones less prominent.\n\n\nTo achieve these goals, we are:\n\n\n\n\ncreating open source software, and\n\n\ncreating, refining and disseminating practices, tools, and studies \n\n\n\n\nCore code principles\n\n\nIn order to serve communities of varying shapes and sizes, all Coral Project software is conceived from the ground up to be:\n\n\n\n\nConfigurable\n: We strive to use configuration to deliver as much business logic, data modeling, and other aspects of our systems as \nis practical.\n Doing so gives us the ability to quickly configure precise UI experiences, data structures, and data science analysis with minimal need for coding, upgrades, server work, etc. Ultimately, we want the community managers who run our software to feel like they are designing their own house. This means trying things to see how they feel, looking at the results, and quickly making changes based on what they learn. We take our inspiration from the ever-changing, adaptable ecosystems of coral reefs.\n\n\nModular\n: Coral products can be used together to form a fully functioning community platform, or be used in pieces to complement existing software. In order to accomplish this, we are building core API features, message passing and import/export strategies in everything we do. We are also refining, documenting, and publishing deployment strategies for each of our products both in isolation as well as together as groups of our products configured to work in concert.\n\n\nPrivacy Minded\n: There is an implicit act of trust involved in registration for and engagement in an online community. Maintaining that trust is a top priority for us. Privacy for us begins with security concerns, and stretches deep into our product thinking. Whenever information is entered into our systems, we want to make it clear who will be able to see that information and how it will be used. We want to build safe, comfortable places that allow for conversations of varying levels of exposure, without false expectations or nasty surprises.\n\n\nSecure, Stable and Scalable\n: Our deployment recommendations, if followed, provide usable and secure environments. Each piece of our software has internal checks to catch any error states and trigger alarms, as well as external restart mechanisms. All of our platforms have proven records for stability and well-known upgrade paths. We will publish auto-scaling deployment workflows where appropriate for large sites with varying loads.\n\n\n\n\nWhat\ns going on and how can I get involved?\n\n\nWe are still actively developing this open presence and we always looking for \ncontributions\n. We want to build this project with all of you.\n\n\nUnder the hood\n\n\nCoral products are based on the following technologies:\n\n\n\n\nThe \nGo\n programming language\n\n\nThe \nMongoDB\n database\n\n\nReact\n and \nRedux\n\n\nWebpack\n and \nBabel\n\n\nDocker\n\n\n\n\nYou can use Docker Compose to \nquick start\n the Coral System or read more about how the whole ecosystem and \neach of its pieces work\n.\n\n\nFor more information about us and to see our blog, please visit \nour website\n and \nsign up to our newsletter\n. We are also on \nTwitter\n.\n\n\nThe Coral Project is a collaboration between \nThe Mozilla Foundation\n, \nThe New York Times\n, and \nThe Washington Post\n, and is funded by a grant from \nThe John S. and James L. Knight Foundation\n.", 
-            "title": "About"
+            "text": "This is a work in progress. Some sections are missing or incomplete.\n\n\nWelcome to the Coral Project documentation! This site aims to familiarize you with the Coral Project, how it works, and how you can help.\n\n\nWhat is the Coral Project?\n\n\nThe Coral Project is an open source project to help publishers of all sizes build better communities around their journalism. We\nre creating tools that allow everyone feel safe, respected, and heard.\n\n\nIf you\nd like to learn more about the Coral Project from a high-level perspective, \nthe main Coral Project website\n is the best place to do that. You can find information there about the project, our goals, and the individual products.\n\n\nHow the documentation is organized\n\n\nThe documentation is organized into sections based on what you want to do with Coral.\n\n\n\n\nThe \nDeveloper Guide\n section contains information geared towards a technical audience: those who want to install Coral, those who want to learn about how the various components of Coral fit together,\n\n\nThe \nUser Guide\n section contains information geared towards a less-technical audience. It has overviews and tutorials for those who want to use the Coral products like Trust, Ask, and Talk. If you\nre a publisher, moderator, journalist, or reader who wants to learn how to use Coral, this section is for you.\n\n\nThe \nContribute\n section contains information for those who want to contribute to the Coral Project. You don\nt have to be a developer to contribute! There are a number of ways you can help out, which are outlined on the \nIntroduction\n page.\n\n\n\n\nLearn more\n\n\nFor more information about us and to see our blog, please visit \nour website\n and \nsign up to our newsletter\n. We are also on \nTwitter\n.\n\n\nThe Coral Project is a collaboration between \nThe Mozilla Foundation\n, \nThe New York Times\n, and \nThe Washington Post\n, and is funded by a grant from \nThe John S. and James L. Knight Foundation\n.", 
+            "title": "Home"
         }, 
         {
-            "location": "/#core-code-principles", 
-            "text": "In order to serve communities of varying shapes and sizes, all Coral Project software is conceived from the ground up to be:   Configurable : We strive to use configuration to deliver as much business logic, data modeling, and other aspects of our systems as  is practical.  Doing so gives us the ability to quickly configure precise UI experiences, data structures, and data science analysis with minimal need for coding, upgrades, server work, etc. Ultimately, we want the community managers who run our software to feel like they are designing their own house. This means trying things to see how they feel, looking at the results, and quickly making changes based on what they learn. We take our inspiration from the ever-changing, adaptable ecosystems of coral reefs.  Modular : Coral products can be used together to form a fully functioning community platform, or be used in pieces to complement existing software. In order to accomplish this, we are building core API features, message passing and import/export strategies in everything we do. We are also refining, documenting, and publishing deployment strategies for each of our products both in isolation as well as together as groups of our products configured to work in concert.  Privacy Minded : There is an implicit act of trust involved in registration for and engagement in an online community. Maintaining that trust is a top priority for us. Privacy for us begins with security concerns, and stretches deep into our product thinking. Whenever information is entered into our systems, we want to make it clear who will be able to see that information and how it will be used. We want to build safe, comfortable places that allow for conversations of varying levels of exposure, without false expectations or nasty surprises.  Secure, Stable and Scalable : Our deployment recommendations, if followed, provide usable and secure environments. Each piece of our software has internal checks to catch any error states and trigger alarms, as well as external restart mechanisms. All of our platforms have proven records for stability and well-known upgrade paths. We will publish auto-scaling deployment workflows where appropriate for large sites with varying loads.", 
-            "title": "Core code principles"
+            "location": "/#what-is-the-coral-project", 
+            "text": "The Coral Project is an open source project to help publishers of all sizes build better communities around their journalism. We re creating tools that allow everyone feel safe, respected, and heard.  If you d like to learn more about the Coral Project from a high-level perspective,  the main Coral Project website  is the best place to do that. You can find information there about the project, our goals, and the individual products.", 
+            "title": "What is the Coral Project?"
         }, 
         {
-            "location": "/#whats-going-on-and-how-can-i-get-involved", 
-            "text": "We are still actively developing this open presence and we always looking for  contributions . We want to build this project with all of you.", 
-            "title": "What's going on and how can I get involved?"
+            "location": "/#how-the-documentation-is-organized", 
+            "text": "The documentation is organized into sections based on what you want to do with Coral.   The  Developer Guide  section contains information geared towards a technical audience: those who want to install Coral, those who want to learn about how the various components of Coral fit together,  The  User Guide  section contains information geared towards a less-technical audience. It has overviews and tutorials for those who want to use the Coral products like Trust, Ask, and Talk. If you re a publisher, moderator, journalist, or reader who wants to learn how to use Coral, this section is for you.  The  Contribute  section contains information for those who want to contribute to the Coral Project. You don t have to be a developer to contribute! There are a number of ways you can help out, which are outlined on the  Introduction  page.", 
+            "title": "How the documentation is organized"
         }, 
         {
-            "location": "/#under-the-hood", 
-            "text": "Coral products are based on the following technologies:   The  Go  programming language  The  MongoDB  database  React  and  Redux  Webpack  and  Babel  Docker   You can use Docker Compose to  quick start  the Coral System or read more about how the whole ecosystem and  each of its pieces work .  For more information about us and to see our blog, please visit  our website  and  sign up to our newsletter . We are also on  Twitter .  The Coral Project is a collaboration between  The Mozilla Foundation ,  The New York Times , and  The Washington Post , and is funded by a grant from  The John S. and James L. Knight Foundation .", 
-            "title": "Under the hood"
-        }, 
-        {
-            "location": "/coral_ecosystem/", 
-            "text": "Coral Ecosystem\n\n\nOver the course of the project, we are building an ecosystem of products, tools and practices. These elements will work together and/or integrate with existing community tools.\n\n\n\n\nTrust\n\n\nTrust is our \nfirst product\n. It enables newsroom users to identify different kinds of end users in order to take actions (eg. I want to block these trolls on this author; I want to highlight the best commenters on this subject.) It allows newsrooms to make manual or automated lists of users via a series of filters. \n\n\nTrust introduces a number of technological components:\n\n\n\n\nRepositories\n\n\nSponge\n\n\nSponge\n is a command line tool to import comments, authors, assets and other entities into the Coral system. It is designed to read data from a foreign \nsource\n, translate the schema into Coral conventions, and POST entities to \nour service layer\n for inserting.\n\n\nRight now the foreign source could be any of the following:\n\n\n\n\nMySQL\n\n\nPostgreSQL\n\n\nMongoDB\n\n\nWeb Service\n\n\n\n\nPillar\n\n\nPillar\n is a REST based web-service module written in golang. It provides the following services:\n\n\n\n\nImports external data into the Coral data model\n\n\nAllows CRUD operation on Coral data model\n\n\nProvides simple queries on Coral data model\n\n\n\n\nXenia\n\n\nXenia\n is a configurable service layer that publishes endpoints against \nmongo aggregation pipeline queries\n.\n\n\nXenia Driver\n\n\nThis\n is a javascript driver for Xenia. It performs queris to xenia from the browser and node.js.\n\n\nCay\n\n\nCay\n is the front-end tool for the Coral Project.\n\n\nElkhorn\n\n\nElkhorn\n is the form composer.", 
-            "title": "Architectural overview"
-        }, 
-        {
-            "location": "/coral_ecosystem/#coral-ecosystem", 
-            "text": "Over the course of the project, we are building an ecosystem of products, tools and practices. These elements will work together and/or integrate with existing community tools.", 
-            "title": "Coral Ecosystem"
-        }, 
-        {
-            "location": "/coral_ecosystem/#trust", 
-            "text": "Trust is our  first product . It enables newsroom users to identify different kinds of end users in order to take actions (eg. I want to block these trolls on this author; I want to highlight the best commenters on this subject.) It allows newsrooms to make manual or automated lists of users via a series of filters.   Trust introduces a number of technological components:", 
-            "title": "Trust"
-        }, 
-        {
-            "location": "/coral_ecosystem/#repositories", 
-            "text": "", 
-            "title": "Repositories"
-        }, 
-        {
-            "location": "/coral_ecosystem/#sponge", 
-            "text": "Sponge  is a command line tool to import comments, authors, assets and other entities into the Coral system. It is designed to read data from a foreign  source , translate the schema into Coral conventions, and POST entities to  our service layer  for inserting.  Right now the foreign source could be any of the following:   MySQL  PostgreSQL  MongoDB  Web Service", 
-            "title": "Sponge"
-        }, 
-        {
-            "location": "/coral_ecosystem/#pillar", 
-            "text": "Pillar  is a REST based web-service module written in golang. It provides the following services:   Imports external data into the Coral data model  Allows CRUD operation on Coral data model  Provides simple queries on Coral data model", 
-            "title": "Pillar"
-        }, 
-        {
-            "location": "/coral_ecosystem/#xenia", 
-            "text": "Xenia  is a configurable service layer that publishes endpoints against  mongo aggregation pipeline queries .", 
-            "title": "Xenia"
-        }, 
-        {
-            "location": "/coral_ecosystem/#xenia-driver", 
-            "text": "This  is a javascript driver for Xenia. It performs queris to xenia from the browser and node.js.", 
-            "title": "Xenia Driver"
-        }, 
-        {
-            "location": "/coral_ecosystem/#cay", 
-            "text": "Cay  is the front-end tool for the Coral Project.", 
-            "title": "Cay"
-        }, 
-        {
-            "location": "/coral_ecosystem/#elkhorn", 
-            "text": "Elkhorn  is the form composer.", 
-            "title": "Elkhorn"
+            "location": "/#learn-more", 
+            "text": "For more information about us and to see our blog, please visit  our website  and  sign up to our newsletter . We are also on  Twitter .  The Coral Project is a collaboration between  The Mozilla Foundation ,  The New York Times , and  The Washington Post , and is funded by a grant from  The John S. and James L. Knight Foundation .", 
+            "title": "Learn more"
         }, 
         {
             "location": "/developer/", 
@@ -104,6 +54,56 @@
             "location": "/developer/#installing-each-component-individually-from-source-code", 
             "text": "This option will have you install each component individually from source code, which will either be Go (most components) or Node.js.  If you choose this option, you can visit the installation page for each Coral component, which has installation instructions for Docker and source.   Cay installation instructions  Elkhorn installation instructions  Pillar installation instructions  Sponge installation instructions  Xenia installation instructions   Probably best for you if:   You are a developer that wants to work on Coral and potentially  contribute to our code base  (thank you!).", 
             "title": "Installing each component individually from source code."
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/", 
+            "text": "Coral Ecosystem\n\n\nOver the course of the project, we are building an ecosystem of products, tools and practices. These elements will work together and/or integrate with existing community tools.\n\n\n\n\nTrust\n\n\nTrust is our \nfirst product\n. It enables newsroom users to identify different kinds of end users in order to take actions (eg. I want to block these trolls on this author; I want to highlight the best commenters on this subject.) It allows newsrooms to make manual or automated lists of users via a series of filters. \n\n\nTrust introduces a number of technological components:\n\n\n\n\nRepositories\n\n\nSponge\n\n\nSponge\n is a command line tool to import comments, authors, assets and other entities into the Coral system. It is designed to read data from a foreign \nsource\n, translate the schema into Coral conventions, and POST entities to \nour service layer\n for inserting.\n\n\nRight now the foreign source could be any of the following:\n\n\n\n\nMySQL\n\n\nPostgreSQL\n\n\nMongoDB\n\n\nWeb Service\n\n\n\n\nPillar\n\n\nPillar\n is a REST based web-service module written in golang. It provides the following services:\n\n\n\n\nImports external data into the Coral data model\n\n\nAllows CRUD operation on Coral data model\n\n\nProvides simple queries on Coral data model\n\n\n\n\nXenia\n\n\nXenia\n is a configurable service layer that publishes endpoints against \nmongo aggregation pipeline queries\n.\n\n\nXenia Driver\n\n\nThis\n is a javascript driver for Xenia. It performs queris to xenia from the browser and node.js.\n\n\nCay\n\n\nCay\n is the front-end tool for the Coral Project.\n\n\nElkhorn\n\n\nElkhorn\n is the form composer.", 
+            "title": "Architectural overview"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#coral-ecosystem", 
+            "text": "Over the course of the project, we are building an ecosystem of products, tools and practices. These elements will work together and/or integrate with existing community tools.", 
+            "title": "Coral Ecosystem"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#trust", 
+            "text": "Trust is our  first product . It enables newsroom users to identify different kinds of end users in order to take actions (eg. I want to block these trolls on this author; I want to highlight the best commenters on this subject.) It allows newsrooms to make manual or automated lists of users via a series of filters.   Trust introduces a number of technological components:", 
+            "title": "Trust"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#repositories", 
+            "text": "", 
+            "title": "Repositories"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#sponge", 
+            "text": "Sponge  is a command line tool to import comments, authors, assets and other entities into the Coral system. It is designed to read data from a foreign  source , translate the schema into Coral conventions, and POST entities to  our service layer  for inserting.  Right now the foreign source could be any of the following:   MySQL  PostgreSQL  MongoDB  Web Service", 
+            "title": "Sponge"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#pillar", 
+            "text": "Pillar  is a REST based web-service module written in golang. It provides the following services:   Imports external data into the Coral data model  Allows CRUD operation on Coral data model  Provides simple queries on Coral data model", 
+            "title": "Pillar"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#xenia", 
+            "text": "Xenia  is a configurable service layer that publishes endpoints against  mongo aggregation pipeline queries .", 
+            "title": "Xenia"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#xenia-driver", 
+            "text": "This  is a javascript driver for Xenia. It performs queris to xenia from the browser and node.js.", 
+            "title": "Xenia Driver"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#cay", 
+            "text": "Cay  is the front-end tool for the Coral Project.", 
+            "title": "Cay"
+        }, 
+        {
+            "location": "/developer/coral_ecosystem/#elkhorn", 
+            "text": "Elkhorn  is the form composer.", 
+            "title": "Elkhorn"
         }, 
         {
             "location": "/quickstart/install/", 
@@ -176,32 +176,62 @@
             "title": "Uninstalling Docker images"
         }, 
         {
-            "location": "/quickstart/mongodb/", 
-            "text": "Using sample data with MongoDB\n\n\nIf you are installing locally, you will want to have a local MongoDB running with sample data. When you install the all-in-one Docker Compose installation, this portion is taken care of for you. However, if you are running from source, for example, you will want to set up your local MongoDB and import sample data.\n\n\nDownload a sample data dump\n\n\nWe have provided an anonymized comments data dump for MongoDB, available to downlaod here: \nMongoDB data dump\n.\nThis data dump is 100MB. Download it to your computer.\n\n\nDownload and install MongoDB\n\n\nFirst, download and set up MongoDB. The MongoDB website offers \ninstructions on how to download and install\n.\n\n\nA nice GUI tool you can use with MongoDB is \nMongoChef\n, and it\ns quite easy to install and set up.\n\n\nCreate your local coral database\n\n\nTODO: add here\n\n\nImport data\n\n\nThe simplest way to do this is from the command line. First ensure you have MongoDB running.\n\n\nThen, take the dump.tar.gz file you downloaded, place it in a folder, and extract it. Copy the directory path to the coral directory within the extracted file.\n\n\nThen, run the below command (filling in your own directory path):\n\n\nmongorestore -d coral /yourpath/dump/coral/\n\n\n\n\nThis will import all the data from the data dump into your own local MongoDB.", 
-            "title": "Setting up MongoDB"
+            "location": "/developer/developer_setup/", 
+            "text": "Developer tools setup\n\n\nIn order to install and work on Coral, there are a number of tools and software components you\nll need to install first. You may not need everything on this page, but we\nve collected all of the setup information here in one place for convenience.\n\n\nGit\n\n\nIf you don\nt already have Git installed, you\nll want to get that set up first. You\nll have to \ndownload and install Git\n. You can read more about Git on \ntheir website\n.\n\n\nYou will also have to \ncreate a GitHub account\n, which is a very straightforward process.\n\n\nAfter installing Git, the first thing you should do is setup your name and email using the following commands:\n\n\ngit config --global user.name \nYour Real Name\n\ngit config --global user.email \nyou@email.com\n\n\n\n\n\nNote that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.\n\n\nGo\n\n\nYou will need to have Go installed if you want to work on and/or install Coral components written in Go (these include Pillar, Sponge, and Xenia).\n\n\nYou can \ndownload and install Go from their website\n. The \ninstallation and setup instructions\n on the Go website are quite good.\n\n\nEnsure that you have exported your $GOPATH environment variable, as detailed in the \ninstallation instructions\n.\n\n\nIf you are not on a version of Go that is 1.7 or higher, you will also have to set the GO15VENDOREXPERIMENT flag.\n\n\nexport GO15VENDOREXPERIMENT=1\n\n\n\n\nIf you are not on a version of Go 1.7 or higher, we recommend adding this to your ~/.bash_profile or other startup script.\n\n\nNode.js\n\n\nYou will need to have Node.js installed if you want to work on and/or install Coral components written in Node.js (these include Cay, Elkhorn, and Xenia Driver).\n\n\nYou can \ndownload and install Node.js from their website\n.\n\n\n\n\nYou must be running version 5.0.0 or higher of node. You can check your current version of node with the command \nnode --version\n\n\nWe recommend using \nnvm\n to manage your node installations.\n\n\n\n\nDocker\n\n\nIf you want to install Coral or Coral components using Docker, you will have to install Docker.\n\n\nYou can install Docker Toolbox using the Docker instructions \nlocated here\n.\n\n\nIf you do have Docker installed, you\nll want to make sure that you have Docker Compose version 1.7 or later. You can check your version using the command \ndocker version\n.)\n\n\nMongoDB\n\n\nUsing sample data with MongoDB\n\n\nIf you are installing locally, you will want to have a local MongoDB running with sample data. When you install the all-in-one Docker Compose installation, this portion is taken care of for you. However, if you are running from source, for example, you will want to set up your local MongoDB and import sample data.\n\n\nDownload a sample data dump\n\n\nWe have provided an anonymized comments data dump for MongoDB, available to downlaod here: \nMongoDB data dump\n.\nThis data dump is 100MB. Download it to your computer.\n\n\nDownload and install MongoDB\n\n\nFirst, download and set up MongoDB. The MongoDB website offers \ninstructions on how to download and install\n.\n\n\nA nice GUI tool you can use with MongoDB is \nMongoChef\n, and it\ns quite easy to install and set up.\n\n\nCreate your local coral database\n\n\nTODO: add here\n\n\nImport data\n\n\nThe simplest way to do this is from the command line. First ensure you have MongoDB running.\n\n\nThen, take the dump.tar.gz file you downloaded, place it in a folder, and extract it. Copy the directory path to the coral directory within the extracted file.\n\n\nThen, run the below command (filling in your own directory path):\n\n\nmongorestore -d coral /yourpath/dump/coral/\n\n\n\n\nThis will import all the data from the data dump into your own local MongoDB.", 
+            "title": "Developer tools setup"
         }, 
         {
-            "location": "/quickstart/mongodb/#using-sample-data-with-mongodb", 
+            "location": "/developer/developer_setup/#developer-tools-setup", 
+            "text": "In order to install and work on Coral, there are a number of tools and software components you ll need to install first. You may not need everything on this page, but we ve collected all of the setup information here in one place for convenience.", 
+            "title": "Developer tools setup"
+        }, 
+        {
+            "location": "/developer/developer_setup/#git", 
+            "text": "If you don t already have Git installed, you ll want to get that set up first. You ll have to  download and install Git . You can read more about Git on  their website .  You will also have to  create a GitHub account , which is a very straightforward process.  After installing Git, the first thing you should do is setup your name and email using the following commands:  git config --global user.name  Your Real Name \ngit config --global user.email  you@email.com   Note that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/developer/developer_setup/#go", 
+            "text": "You will need to have Go installed if you want to work on and/or install Coral components written in Go (these include Pillar, Sponge, and Xenia).  You can  download and install Go from their website . The  installation and setup instructions  on the Go website are quite good.  Ensure that you have exported your $GOPATH environment variable, as detailed in the  installation instructions .  If you are not on a version of Go that is 1.7 or higher, you will also have to set the GO15VENDOREXPERIMENT flag.  export GO15VENDOREXPERIMENT=1  If you are not on a version of Go 1.7 or higher, we recommend adding this to your ~/.bash_profile or other startup script.", 
+            "title": "Go"
+        }, 
+        {
+            "location": "/developer/developer_setup/#nodejs", 
+            "text": "You will need to have Node.js installed if you want to work on and/or install Coral components written in Node.js (these include Cay, Elkhorn, and Xenia Driver).  You can  download and install Node.js from their website .   You must be running version 5.0.0 or higher of node. You can check your current version of node with the command  node --version  We recommend using  nvm  to manage your node installations.", 
+            "title": "Node.js"
+        }, 
+        {
+            "location": "/developer/developer_setup/#docker", 
+            "text": "If you want to install Coral or Coral components using Docker, you will have to install Docker.  You can install Docker Toolbox using the Docker instructions  located here .  If you do have Docker installed, you ll want to make sure that you have Docker Compose version 1.7 or later. You can check your version using the command  docker version .)", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/developer/developer_setup/#mongodb", 
+            "text": "", 
+            "title": "MongoDB"
+        }, 
+        {
+            "location": "/developer/developer_setup/#using-sample-data-with-mongodb", 
             "text": "If you are installing locally, you will want to have a local MongoDB running with sample data. When you install the all-in-one Docker Compose installation, this portion is taken care of for you. However, if you are running from source, for example, you will want to set up your local MongoDB and import sample data.", 
             "title": "Using sample data with MongoDB"
         }, 
         {
-            "location": "/quickstart/mongodb/#download-a-sample-data-dump", 
+            "location": "/developer/developer_setup/#download-a-sample-data-dump", 
             "text": "We have provided an anonymized comments data dump for MongoDB, available to downlaod here:  MongoDB data dump .\nThis data dump is 100MB. Download it to your computer.", 
             "title": "Download a sample data dump"
         }, 
         {
-            "location": "/quickstart/mongodb/#download-and-install-mongodb", 
+            "location": "/developer/developer_setup/#download-and-install-mongodb", 
             "text": "First, download and set up MongoDB. The MongoDB website offers  instructions on how to download and install .  A nice GUI tool you can use with MongoDB is  MongoChef , and it s quite easy to install and set up.", 
             "title": "Download and install MongoDB"
         }, 
         {
-            "location": "/quickstart/mongodb/#create-your-local-coral-database", 
+            "location": "/developer/developer_setup/#create-your-local-coral-database", 
             "text": "TODO: add here", 
             "title": "Create your local coral database"
         }, 
         {
-            "location": "/quickstart/mongodb/#import-data", 
+            "location": "/developer/developer_setup/#import-data", 
             "text": "The simplest way to do this is from the command line. First ensure you have MongoDB running.  Then, take the dump.tar.gz file you downloaded, place it in a folder, and extract it. Copy the directory path to the coral directory within the extracted file.  Then, run the below command (filling in your own directory path):  mongorestore -d coral /yourpath/dump/coral/  This will import all the data from the data dump into your own local MongoDB.", 
             "title": "Import data"
         }, 
@@ -1471,8 +1501,153 @@
             "title": "Test"
         }, 
         {
+            "location": "/user/", 
+            "text": "Introduction\n\n\nWelcome! This is the place to be if you want to learn more about Coral as a user. We\nll guide you through the different products and show you tutorials on how to make the best use of the tools.\n\n\nCan you think of some tutorial or how-to guide that we\nre missing? We\nd love for you to create and share it! You can read more about contributing to our documentation in our \nContribute section\n.\n\n\nIf you are looking for information on how to install Coral, check out the \nDeveloper Guide\n section.\n\n\nHow the User Guide section is organized\n\n\nWe have a User Guide for each Coral product (Trust, Ask, and Talk).\n\n\n\n\nEach product has an \noverview section\n to tell you a little about the product, the goals for that product, and a high level explanation of its functionality.\n\n\nEach product also has a set of \ntutorials\n, to show you how you can perform certain tasks using that product.\n\n\n\n\nTrust\n\n\n\n\nTrust overview\n\n\nTrust tutorials\n\n\n\n\nAsk\n\n\n\n\nAsk overview\n\n\nAsk tutorials\n\n\n\n\nTalk\n\n\n\n\nTalk overview\n\n\nTalk tutorials", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/user/#introduction", 
+            "text": "Welcome! This is the place to be if you want to learn more about Coral as a user. We ll guide you through the different products and show you tutorials on how to make the best use of the tools.  Can you think of some tutorial or how-to guide that we re missing? We d love for you to create and share it! You can read more about contributing to our documentation in our  Contribute section .  If you are looking for information on how to install Coral, check out the  Developer Guide  section.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/user/#how-the-user-guide-section-is-organized", 
+            "text": "We have a User Guide for each Coral product (Trust, Ask, and Talk).   Each product has an  overview section  to tell you a little about the product, the goals for that product, and a high level explanation of its functionality.  Each product also has a set of  tutorials , to show you how you can perform certain tasks using that product.", 
+            "title": "How the User Guide section is organized"
+        }, 
+        {
+            "location": "/user/#trust", 
+            "text": "Trust overview  Trust tutorials", 
+            "title": "Trust"
+        }, 
+        {
+            "location": "/user/#ask", 
+            "text": "Ask overview  Ask tutorials", 
+            "title": "Ask"
+        }, 
+        {
+            "location": "/user/#talk", 
+            "text": "Talk overview  Talk tutorials", 
+            "title": "Talk"
+        }, 
+        {
+            "location": "/user/trust/", 
+            "text": "Trust\n\n\nWhat is Trust?\n\n\nThe Trust product is a tool that allows journalistic organizations to filter through and create metrics based on individual comment behavior, and also add qualitative information. This information can be used to help journalistic organizations take next steps to better utilize and strengthen their communities.\n\n\nThe \ntutorials page\n will help guide you through accomplishing goals like the following:\n\n\n\n\nI would like to find the most liked comments based on keyword/topic searches, so that I can do a round up (for instance, \nbest comments written about the Zika virus\u201d).\n\n\nI would like to identify commenters who leave high-quality comments that appear to be expert, so that potential sources can be identified.\n\n\nI would like to identify new commenters who leave comments that get a lot of likes, so I can welcome them personally.\n\n\nI would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.\n\n\n\n\nTrust sections\n\n\nTrust is comprised of the following sections:\n\n\n\n\nDashboard\n\n\nCommunity Explorer\n\n\nLists\n\n\nSettings\n\n\nLogin/Authentication\n\n\n\n\nDashboard\n\n\nCommunity Explorer\n\n\nLists\n\n\nSettings", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/user/trust/#trust", 
+            "text": "", 
+            "title": "Trust"
+        }, 
+        {
+            "location": "/user/trust/#what-is-trust", 
+            "text": "The Trust product is a tool that allows journalistic organizations to filter through and create metrics based on individual comment behavior, and also add qualitative information. This information can be used to help journalistic organizations take next steps to better utilize and strengthen their communities.  The  tutorials page  will help guide you through accomplishing goals like the following:   I would like to find the most liked comments based on keyword/topic searches, so that I can do a round up (for instance,  best comments written about the Zika virus\u201d).  I would like to identify commenters who leave high-quality comments that appear to be expert, so that potential sources can be identified.  I would like to identify new commenters who leave comments that get a lot of likes, so I can welcome them personally.  I would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.", 
+            "title": "What is Trust?"
+        }, 
+        {
+            "location": "/user/trust/#trust-sections", 
+            "text": "Trust is comprised of the following sections:   Dashboard  Community Explorer  Lists  Settings  Login/Authentication", 
+            "title": "Trust sections"
+        }, 
+        {
+            "location": "/user/trust/#dashboard", 
+            "text": "", 
+            "title": "Dashboard"
+        }, 
+        {
+            "location": "/user/trust/#community-explorer", 
+            "text": "", 
+            "title": "Community Explorer"
+        }, 
+        {
+            "location": "/user/trust/#lists", 
+            "text": "", 
+            "title": "Lists"
+        }, 
+        {
+            "location": "/user/trust/#settings", 
+            "text": "", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/user/trust_tutorials/", 
+            "text": "Trust tutorials\n\n\nThis is where you can find tutorials on how to best utilize the Trust product.\n\n\nDo you have a tutorial you\nd like to see here? Please \nget in touch and let us know about it\n, or better still, \nadd it yourself!\n\n\nWhat would you like to do?\n\n\n\n\nIdentify the most liked comments\n: I would like to find the most liked comments based on keyword/topic searches, so that I can do a round up (for instance, \nbest comments written about the Zika virus\u201d).\n\n\nIdentify high quality comments\n: I would like to identify commenters who leave high-quality comments that appear to be expert, so that potential sources can be identified.\n\n\nIdentify high quality new commenters\n: I would like to identify new commenters who leave comments that get a lot of likes, so I can welcome them personally.\n\n\nIdentify trolls\n: I would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.\n\n\n\n\nIdentify most liked comments\n\n\nSpecifically, we\nd like to identify the most liked comments based on keyword/topic searches, so that we can do a round up (for instance, \nbest comments written about the Zika virus\u201d).\n\n\nIdentify high quality new commenters\n\n\nWe would like to identify new commenters who leave comments that get a lot of likes, so we can welcome them personally.\n\n\nIdentify trolls\n\n\nWe would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.\n\n\nWhat are some ways that can we identify trolls?\n\n\n\n\nA user with a high percentage of moderator deleted comments.\n\n\n\n\nWhat might we be able to do about users like this?\n\n\n\n\nIt\ns possible that a user may not exhibit troll behavior in all sections or for all authors. We can identify the sections in which they havea  high percentage of moderator deleted comments and ban them only for those sections/authors, so that they can continue to contribute to the community elsewhere.\n\n\nWe can automatically move that user\ns comments into pre-moderation.\n\n\n\n\nHow to identify trolls on certain topics or authors\n\n\nWe are going to create and save a list of commenters who have a high percentage of moderated deleted comments for a particular section or author. For the purposes of this tutorial, we\nll assume we are looking for trolls in the \nNational\n section.\n\n\n1) Open the \nCreate a Search\n page by clicking the wrench symbol on the side navigation bar.\n\n\n\n\n2) In the \nFilters\n section, choose \nSection\n in the drop down. This will trigger the display of a second drop down, which will let you choose which section you want to filter in (in this case, the \nnational\n section).\n\n\n \n\n\n3) Scroll down to the \nPercent moderator deleted\n filter.\n\n\n\n\n4) Fill in \n50\n and \n100\n: you\nre now filtering out all of the users in the \nNational\n section who have had 50% or more of their comments moderator deleted.\n\n\n\n\n5) You now have a filter that shows you all of the users who have had over 50% of their comments in the National section deleted by moderators. You can now save that search to refer back to later, or to allow your colleagues to have access to the search as well.\n\n\nClick the \nSave Search\n button in the upper right to save.\n\n\n\n\n6) You can now fill in the name of the search and a brief description. The \ntag\n field will create a tag that will attach itself to each user in the \nTrolls in National section\n list.\n\n\nClick \nConfirm\n to save your search.\n\n\n\n\n7) You (and your colleagues) can now access this saved search via the \nSaved Search\n button in the side navigation bar.", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#trust-tutorials", 
+            "text": "This is where you can find tutorials on how to best utilize the Trust product.  Do you have a tutorial you d like to see here? Please  get in touch and let us know about it , or better still,  add it yourself!", 
+            "title": "Trust tutorials"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#what-would-you-like-to-do", 
+            "text": "Identify the most liked comments : I would like to find the most liked comments based on keyword/topic searches, so that I can do a round up (for instance,  best comments written about the Zika virus\u201d).  Identify high quality comments : I would like to identify commenters who leave high-quality comments that appear to be expert, so that potential sources can be identified.  Identify high quality new commenters : I would like to identify new commenters who leave comments that get a lot of likes, so I can welcome them personally.  Identify trolls : I would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.", 
+            "title": "What would you like to do?"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#identify-most-liked-comments", 
+            "text": "Specifically, we d like to identify the most liked comments based on keyword/topic searches, so that we can do a round up (for instance,  best comments written about the Zika virus\u201d).", 
+            "title": "Identify most liked comments"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#identify-high-quality-new-commenters", 
+            "text": "We would like to identify new commenters who leave comments that get a lot of likes, so we can welcome them personally.", 
+            "title": "Identify high quality new commenters"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#identify-trolls", 
+            "text": "We would like to identify trolls on certain topics or authors, so that their comments on these subjects can automatically be moved to pre-moderation/create notifications for moderators to pay attention.  What are some ways that can we identify trolls?   A user with a high percentage of moderator deleted comments.   What might we be able to do about users like this?   It s possible that a user may not exhibit troll behavior in all sections or for all authors. We can identify the sections in which they havea  high percentage of moderator deleted comments and ban them only for those sections/authors, so that they can continue to contribute to the community elsewhere.  We can automatically move that user s comments into pre-moderation.", 
+            "title": "Identify trolls"
+        }, 
+        {
+            "location": "/user/trust_tutorials/#how-to-identify-trolls-on-certain-topics-or-authors", 
+            "text": "We are going to create and save a list of commenters who have a high percentage of moderated deleted comments for a particular section or author. For the purposes of this tutorial, we ll assume we are looking for trolls in the  National  section.  1) Open the  Create a Search  page by clicking the wrench symbol on the side navigation bar.   2) In the  Filters  section, choose  Section  in the drop down. This will trigger the display of a second drop down, which will let you choose which section you want to filter in (in this case, the  national  section).     3) Scroll down to the  Percent moderator deleted  filter.   4) Fill in  50  and  100 : you re now filtering out all of the users in the  National  section who have had 50% or more of their comments moderator deleted.   5) You now have a filter that shows you all of the users who have had over 50% of their comments in the National section deleted by moderators. You can now save that search to refer back to later, or to allow your colleagues to have access to the search as well.  Click the  Save Search  button in the upper right to save.   6) You can now fill in the name of the search and a brief description. The  tag  field will create a tag that will attach itself to each user in the  Trolls in National section  list.  Click  Confirm  to save your search.   7) You (and your colleagues) can now access this saved search via the  Saved Search  button in the side navigation bar.", 
+            "title": "How to identify trolls on certain topics or authors"
+        }, 
+        {
+            "location": "/user/ask/", 
+            "text": "Ask\n\n\nThis page will get filled in as we unroll the Ask product. In the meantime, you can find out more on the Ask product on \nour website\n.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/user/ask/#ask", 
+            "text": "This page will get filled in as we unroll the Ask product. In the meantime, you can find out more on the Ask product on  our website .", 
+            "title": "Ask"
+        }, 
+        {
+            "location": "/user/ask_tutorials/", 
+            "text": "Ask tutorials\n\n\nThis page will get filled in as we unroll the Ask product. In the meantime, you can find out more on the Ask product on \nour website\n.", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/user/ask_tutorials/#ask-tutorials", 
+            "text": "This page will get filled in as we unroll the Ask product. In the meantime, you can find out more on the Ask product on  our website .", 
+            "title": "Ask tutorials"
+        }, 
+        {
+            "location": "/user/talk/", 
+            "text": "Talk\n\n\nThis page will get filled in as we unroll the Talk product. In the meantime, you can find out more on the Talk product on \nour website\n.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/user/talk/#talk", 
+            "text": "This page will get filled in as we unroll the Talk product. In the meantime, you can find out more on the Talk product on  our website .", 
+            "title": "Talk"
+        }, 
+        {
+            "location": "/user/talk_tutorials/", 
+            "text": "Talk tutorials\n\n\nThis page will get filled in as we unroll the Talk product. In the meantime, you can find out more on the Talk product on \nour website\n.", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/user/talk_tutorials/#talk-tutorials", 
+            "text": "This page will get filled in as we unroll the Talk product. In the meantime, you can find out more on the Talk product on  our website .", 
+            "title": "Talk tutorials"
+        }, 
+        {
             "location": "/contribute/", 
-            "text": "Contributing to the Coral Project\n\n\nWelcome! We\nre delighted to have you contribute to the Coral Project. Before you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project: you don\nt have to be a developer to help out.\n\n\nContributing without programming\n\n\nWe need help with a number of non-programming tasks:\n\n\n\n\nReport bugs\n\n\nRequest features\n\n\nWrite and edit documentation\n\n\n\n\nContributing by coding\n\n\nIf you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.\n\n\n\n\nWrite code\n\n\n\n\nContributing to the community\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
+            "text": "Contributing to the Coral Project\n\n\nWelcome! We\nre delighted to have you contribute to the Coral Project. Before you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project: you don\nt have to be a developer to help out.\n\n\nContributing without programming\n\n\nWe need help with a number of non-programming tasks:\n\n\n\n\nReport bugs\n\n\nRequest features\n\n\nWrite and edit documentation\n\n\n\n\nContributing by coding\n\n\nIf you are a developer, especially if you know Go or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.\n\n\n\n\nWrite code\n\n\n\n\nContributing to the community\n\n\n\n\nJoin us in our community forum\n to discuss online communities, comment sections, and journalism. Offer suggestions, ask questions!\n\n\nSign up to our newsletter\n.\n\n\nWe are also on \nTwitter\n.\n\n\nPlay our \nCards Against Community\n card game!", 
             "title": "Introduction"
         }, 
         {
@@ -1487,128 +1662,168 @@
         }, 
         {
             "location": "/contribute/#contributing-by-coding", 
-            "text": "If you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.   Write code", 
+            "text": "If you are a developer, especially if you know Go or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.   Write code", 
             "title": "Contributing by coding"
         }, 
         {
             "location": "/contribute/#contributing-to-the-community", 
-            "text": "Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
-            "title": "Contributing to the community"
-        }, 
-        {
-            "location": "/contribute/", 
-            "text": "Contributing to the Coral Project\n\n\nWelcome! We\nre delighted to have you contribute to the Coral Project. Before you get started, be sure to review our \nCode of Conduct\n, which governs all development and project contributions.\n\n\nThere are a number of ways that you can contribute to the Coral Project: you don\nt have to be a developer to help out.\n\n\nContributing without programming\n\n\nWe need help with a number of non-programming tasks:\n\n\n\n\nReport bugs\n\n\nRequest features\n\n\nWrite and edit documentation\n\n\n\n\nContributing by coding\n\n\nIf you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.\n\n\n\n\nWrite code\n\n\n\n\nContributing to the community\n\n\nAlso, make sure to play \nat least\n three rounds of \nCards Against Community\n daily.", 
-            "title": "Introduction"
-        }, 
-        {
-            "location": "/contribute/#contributing-to-the-coral-project", 
-            "text": "Welcome! We re delighted to have you contribute to the Coral Project. Before you get started, be sure to review our  Code of Conduct , which governs all development and project contributions.  There are a number of ways that you can contribute to the Coral Project: you don t have to be a developer to help out.", 
-            "title": "Contributing to the Coral Project"
-        }, 
-        {
-            "location": "/contribute/#contributing-without-programming", 
-            "text": "We need help with a number of non-programming tasks:   Report bugs  Request features  Write and edit documentation", 
-            "title": "Contributing without programming"
-        }, 
-        {
-            "location": "/contribute/#contributing-by-coding", 
-            "text": "If you are a developer, especially if you know Golang or Node.js, we would love your help in fixing bugs and developing new features and plug-ins.   Write code", 
-            "title": "Contributing by coding"
-        }, 
-        {
-            "location": "/contribute/#contributing-to-the-community", 
-            "text": "Also, make sure to play  at least  three rounds of  Cards Against Community  daily.", 
+            "text": "Join us in our community forum  to discuss online communities, comment sections, and journalism. Offer suggestions, ask questions!  Sign up to our newsletter .  We are also on  Twitter .  Play our  Cards Against Community  card game!", 
             "title": "Contributing to the community"
         }, 
         {
             "location": "/contribute/documentation/writing_documentation/", 
-            "text": "Writing Documentation\n\n\nThis section explains how the community can contribute to the Coral Project documentation.\n\n\nYou can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!\n\n\nHere is how our documentation works:\n\n\n\n\nThe source documentation lives in GitHub at \nhttps://github.com/coralproject/docs/\n.\n\n\nThe documentation is hosted at \nRead the Docs\n.\n\n\nWhen the documentation is updated and pushed to the GitHub repository, this triggers a build of the Read the Docs site.\n\n\n\n\nGetting the documentation\n\n\nAll of the documentation for the Coral Project \nresides in GitHub\n in the \ndocs\n repository.\n\n\nTo get a local version of the documentation, clone the repository:\n\n\ngit clone https://github.com/coralproject/docs.git\n\n\n\n\nIf you haven\nt worked with Git before, you can find \ninstructions on downloading it here\n.\n\n\nGetting started with MkDocs\n\n\nThe Coral Project\ns documentation uses the \nMkDocs\n documentation system, which uses Markdown to format text. The \nMkDocs website\n contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around, \nlike this one\n.\n\n\nHow the documentation is organized\n\n\nThe documentation is organized into several categories:\n\n\n\n\nIntroduction\n: This offers a general overview of the Coral Project and its different components.\n\n\nDeveloper Guide\n: This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.\n\n\nUser Guide\n: This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.\n\n\nContribute\n: This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).\n\n\nFAQ\n\n\n\n\nWriting style\n\n\nThe key thing to remember when writing documentation is to be extremely explicit and detailed. Do not assume knowledge!\n\n\nDo not assume knowledge\n\n\n\n\nWhenever possible, include an actual instruction.\n\n\nGood:\n\n\nIf there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!\n\n\n\n\n\n\nShow \nexpected results\n wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.\n\n\nIf there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.\n\n\nDo not merely explain HOW to do something, but also WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.\n\n\n\n\nCommands and code blocks\n\n\n\n\nEnclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.\n\n\nBe sure you are using universal command line commands, not shortcuts available in some shells!\n\n\nGood: \nmkdir exampledirectory\n\n\nBad: \nmd exampledirectory\n\n\n\n\n\n\n\n\nThird-party components\n\n\nIs there a third-party component the user needs to set up (for instance, MongoDB)?\n\n\n\n\nDon\nt include all setup instructions, but do link to the setup instructions on the website of the third-party app in question.\n\n\nBe sure to detail any specific instructions they will need to integrate this third-party component into the system.\n\n\nCurrently, much of this \nthird party setup\n information resides in the \nDeveloper Setup\n document. This reduces duplication if there is a component that needs to be set up for multiple items.\n\n\n\n\nMarkup specific style\n\n\n\n\nWhen adding headlines and section dividers, keep in mind that H1 (#) and H2 (##) text shows up in the Table of Contents. H3 (###) and below does not.\n\n\nTo avoid making the ToC too cluttered, try to only use H2 (##) for key large sections.\n\n\n\n\nInstallation instructions\n\n\n\n\nBe sure to include \nevery single step\n. Preferably copy paste.\n\n\nWhen working from the command line, include every step in code blocks.\n\n\n\n\nAPI documentation\n\n\nWhen documenting a REST-style API, such as the \nPillar API\n, there are certain pieces of information to include. The \nPillar API documentation\n is a useful template.\n\n\n\n\nCreate an initial table that lists endpoints, which contains:\n\n\nThe endpoint URL.\n\n\nThe HTTP verb for that endpoint (GET, POST).\n\n\nThe basic functionality description for that endpoint. Make this into a targeted link that jumps to the full description for that endpoint.\n\n\n\n\n\n\nCreate a full description for each endpoint. You can see the \nGet Users\n Pillar endpoint for an example). Each description should include:\n\n\nThe parameters for the endpoint (include the parameter name, whether it is required or optional, the type, and the description).\n\n\nAn example call.\n\n\nThe response for the example call (whether that is a JSON object, or simply a status response).\n\n\n\n\n\n\n\n\nTerminology\n\n\nHere are some commonly used terms:\n\n\nSoftware specific\n\n\n\n\nCoral\n: Refers to the Coral product, which includes the three components Trust, Ask, and Talk.\n\n\nCoral Project\n: Refers to the project of building and crafting the Coral product.\n\n\nCoral Ecosystem\n: Refers to all of the pieces that make up Coral from a more technical or development perspective: includes all the technical components such as Pillar, Sponge, and Cay.\n\n\n\n\nUsers\n\n\n\n\nDevelopers\n: Refers to the technical users of Coral who will be installing Coral and working with the backend. Also refers to open-source contributors.\n\n\nEnd Users\n: Refers to anyone who will be interacting with the Coral front end. Examples of end users are publishers, moderators, journalists, and readers.\n\n\n\n\nRelease notes\n\n\nImproving the documentation\n\n\nImprovements are welcomed! Did you perform an installation, and found some of the language or instructions confusing or missing? Help us fix it!\n\n\nTranslating documentation", 
+            "text": "Writing Documentation\n\n\nThis section explains how the community can contribute to the Coral Project documentation.\n\n\nYou can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!\n\n\nHere is, briefly, how our documentation works:\n\n\n\n\nThe source documentation lives in GitHub at \nhttps://github.com/coralproject/docs/\n.\n\n\nThe documentation is hosted on \nGitHub pages\n.\n\n\nThe documentation is built using \nMkDocs\n, a Markdown-based static site generator (geared towards building project documentation).\n\n\nThe document is deployed using a simple Mkdocs command that builds the documentation and deploys it to GitHub pages.\n\n\n\n\nStyle Guide\n\n\nThere is a separate page for the \ndocumentation style guide\n, that covers guidelines for how to organize and write instructions and tutorials, how to format text for consistency, and terminology.\n\n\nHow the documentation is organized\n\n\nThe documentation is organized into several categories:\n\n\n\n\nIntroduction\n: This offers a general overview of the Coral Project and its different components.\n\n\nDeveloper Guide\n: This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.\n\n\nRelease Notes\n also live within the Developer Guide section.\n\n\n\n\n\n\nUser Guide\n: This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.\n\n\nContribute\n: This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).\n\n\nFAQ\n\n\n\n\nHow to obtain, write, and deploy documentation\n\n\nOur documentation is hosted and deployed through GitHub. This guide will take you step by step through the process of getting the documentation on to your local machine, editing the documentation, and submitting your changes. If you\nve never worked with Git before, it might seem a little intimidating, but we\nve broken it down for you into manageable chunks.\n\n\nBriefly, the process is as follows:\n\n\n\n\nFirst, you will get the documentation source code, using Git.\n\n\nThen, you will work on the documentation. You will use Mkdocs and Markdown to write the documentation.\n\n\nThen, you will push your changes to GitHub.\n\n\nFinally, you will deploy the documentation. This is done using a simple Mkdocs commands that builds the documentation and deploys it to GitHub pages.\n\n\n\n\nInstall and set up Git\n\n\nIf you don\nt already have Git installed, you\nll want to get that set up first. You\nll have to \ndownload and install Git\n. You can read more about Git on \ntheir website\n.\n\n\nYou will also have to \ncreate a GitHub account\n, which is a very straightforward process.\n\n\nAfter installing Git, the first thing you should do is setup your name and email using the following commands:\n\n\ngit config --global user.name \nYour Real Name\n\ngit config --global user.email \nyou@email.com\n\n\n\n\n\nNote that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.\n\n\nInstall MkDocs\n\n\nThe Coral Project\ns documentation uses the \nMkDocs\n documentation system, which uses \nMarkdown\n to format text. Before you can get started on writing and editing the documentation, you will need to have MkDocs installed.\n\n\nYou can \ndownload and install MkDocs\n using the instructions on their website. The \nMkDocs website\n also contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around, \nlike this one\n.\n\n\nGetting the documentation\n\n\nAll of the documentation for the Coral Project \nresides in GitHub\n in the \ndocs\n repository.\n\n\nTo get a local version of the documentation, clone the repository using this command:\n\n\ngit clone https://github.com/coralproject/docs.git\n\n\n\n\nYou now have a local copy of the documentation on your local machine, that you can modify and add to.\n\n\nNote\n: If you already have a local copy of the documentation repository on your computer, be sure to perform a \ngit pull\n before you start editing. This will ensure that you are working on the most recent available version of the documentation, which will prevent potential merge conflicts when you\nre ready to commit your changes.\n\n\nWriting and editing the documentation\n\n\nAs you are writing the documentation, refer to the \nDocumentation Style Guide\n to make sure you are remaining consistent with our current documentation standards, and writing the best and clearest documentation possible.\n\n\nCommit your changes\n\n\nOnce you\nve finished your edits, it\ns time to commit your changes back up to the remote repository on GitHub.\n\n\nFirst, you\nll add your changes, where \nfilename\n is the name of the file or files that you have changed.\n\n\ngit add \nfilename\n\n\n\n\n\nThen, you\nll commit your changes. Be sure to add a commit message (the portion within the single quotations) to let everyone know what it is that you\nve changed. The \n-m\n flag is what tells Git that you\nre adding a commit message.\n\n\ngit commit -m 'Updated the Ask tutorial'\n\n\n\n\nFinally, push your changes up to the remote repository:\n\n\ngit push origin master\n\n\n\n\nDeploy the documentation\n\n\nNow that the documentation has been updated and committed to the repository, you can deploy the documentation. You can read more about how this works at the \nMkdocs website\n, but it basically comes down to a single command.\n\n\nFirst ensure that you have the latest version of the documentation on your local machine:\n\n\ngit pull\n\n\n\n\nThen, run the following command:\n\n\nmkdocs gh-deploy --clean\n\n\n\n\nThe \ngh-deploy\n command builds the documentation, then uses the \nghp-import\n tool to commit them to the \ngh-pages\n branch within the \ndocs\n repository and push the \ngh-pages\n branch to GitHub (which publishes the documents to GitHub pages).\n\n\nTranslating documentation\n\n\nTo come.", 
             "title": "Writing documentation"
         }, 
         {
             "location": "/contribute/documentation/writing_documentation/#writing-documentation", 
-            "text": "This section explains how the community can contribute to the Coral Project documentation.  You can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!  Here is how our documentation works:   The source documentation lives in GitHub at  https://github.com/coralproject/docs/ .  The documentation is hosted at  Read the Docs .  When the documentation is updated and pushed to the GitHub repository, this triggers a build of the Read the Docs site.", 
+            "text": "This section explains how the community can contribute to the Coral Project documentation.  You can contribute to the documentation by editing existing documents for clarity or correcting errors. Additionally, any new features or changes to the software should be thoroughly documented. We value clear, consistent, thorough, readable documentation!  Here is, briefly, how our documentation works:   The source documentation lives in GitHub at  https://github.com/coralproject/docs/ .  The documentation is hosted on  GitHub pages .  The documentation is built using  MkDocs , a Markdown-based static site generator (geared towards building project documentation).  The document is deployed using a simple Mkdocs command that builds the documentation and deploys it to GitHub pages.", 
             "title": "Writing Documentation"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#getting-the-documentation", 
-            "text": "All of the documentation for the Coral Project  resides in GitHub  in the  docs  repository.  To get a local version of the documentation, clone the repository:  git clone https://github.com/coralproject/docs.git  If you haven t worked with Git before, you can find  instructions on downloading it here .", 
-            "title": "Getting the documentation"
-        }, 
-        {
-            "location": "/contribute/documentation/writing_documentation/#getting-started-with-mkdocs", 
-            "text": "The Coral Project s documentation uses the  MkDocs  documentation system, which uses Markdown to format text. The  MkDocs website  contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around,  like this one .", 
-            "title": "Getting started with MkDocs"
+            "location": "/contribute/documentation/writing_documentation/#style-guide", 
+            "text": "There is a separate page for the  documentation style guide , that covers guidelines for how to organize and write instructions and tutorials, how to format text for consistency, and terminology.", 
+            "title": "Style Guide"
         }, 
         {
             "location": "/contribute/documentation/writing_documentation/#how-the-documentation-is-organized", 
-            "text": "The documentation is organized into several categories:   Introduction : This offers a general overview of the Coral Project and its different components.  Developer Guide : This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.  User Guide : This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.  Contribute : This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).  FAQ", 
+            "text": "The documentation is organized into several categories:   Introduction : This offers a general overview of the Coral Project and its different components.  Developer Guide : This provides information for technical users of the Coral Project. It offers installation instructions for the Coral Ecosystem as a whole, as well as installation instructions for each individual component.  Release Notes  also live within the Developer Guide section.    User Guide : This provides information for end users (publishers, journalists, moderators, readers) on how to use the features of Coral. It includes tutorials and how-to guides.  Contribute : This provides information on how to contribute to the Coral Project through open source. There are sections for the developers (how to work with GitHub, etc.), as well as sections for those who want to contribute to other pieces of the Coral Project (such as the documentation!).  FAQ", 
             "title": "How the documentation is organized"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#writing-style", 
+            "location": "/contribute/documentation/writing_documentation/#how-to-obtain-write-and-deploy-documentation", 
+            "text": "Our documentation is hosted and deployed through GitHub. This guide will take you step by step through the process of getting the documentation on to your local machine, editing the documentation, and submitting your changes. If you ve never worked with Git before, it might seem a little intimidating, but we ve broken it down for you into manageable chunks.  Briefly, the process is as follows:   First, you will get the documentation source code, using Git.  Then, you will work on the documentation. You will use Mkdocs and Markdown to write the documentation.  Then, you will push your changes to GitHub.  Finally, you will deploy the documentation. This is done using a simple Mkdocs commands that builds the documentation and deploys it to GitHub pages.", 
+            "title": "How to obtain, write, and deploy documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#install-and-set-up-git", 
+            "text": "If you don t already have Git installed, you ll want to get that set up first. You ll have to  download and install Git . You can read more about Git on  their website .  You will also have to  create a GitHub account , which is a very straightforward process.  After installing Git, the first thing you should do is setup your name and email using the following commands:  git config --global user.name  Your Real Name \ngit config --global user.email  you@email.com   Note that user.name should be your real name, not your GitHub username. The email you use in the user.email field will be used to associate your commits with your GitHub account.", 
+            "title": "Install and set up Git"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#install-mkdocs", 
+            "text": "The Coral Project s documentation uses the  MkDocs  documentation system, which uses  Markdown  to format text. Before you can get started on writing and editing the documentation, you will need to have MkDocs installed.  You can  download and install MkDocs  using the instructions on their website. The  MkDocs website  also contains a lot of good information on writing documentation in MkDocs, and there are plenty of decent Markdown cheatsheets floating around,  like this one .", 
+            "title": "Install MkDocs"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#getting-the-documentation", 
+            "text": "All of the documentation for the Coral Project  resides in GitHub  in the  docs  repository.  To get a local version of the documentation, clone the repository using this command:  git clone https://github.com/coralproject/docs.git  You now have a local copy of the documentation on your local machine, that you can modify and add to.  Note : If you already have a local copy of the documentation repository on your computer, be sure to perform a  git pull  before you start editing. This will ensure that you are working on the most recent available version of the documentation, which will prevent potential merge conflicts when you re ready to commit your changes.", 
+            "title": "Getting the documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#writing-and-editing-the-documentation", 
+            "text": "As you are writing the documentation, refer to the  Documentation Style Guide  to make sure you are remaining consistent with our current documentation standards, and writing the best and clearest documentation possible.", 
+            "title": "Writing and editing the documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#commit-your-changes", 
+            "text": "Once you ve finished your edits, it s time to commit your changes back up to the remote repository on GitHub.  First, you ll add your changes, where  filename  is the name of the file or files that you have changed.  git add  filename   Then, you ll commit your changes. Be sure to add a commit message (the portion within the single quotations) to let everyone know what it is that you ve changed. The  -m  flag is what tells Git that you re adding a commit message.  git commit -m 'Updated the Ask tutorial'  Finally, push your changes up to the remote repository:  git push origin master", 
+            "title": "Commit your changes"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#deploy-the-documentation", 
+            "text": "Now that the documentation has been updated and committed to the repository, you can deploy the documentation. You can read more about how this works at the  Mkdocs website , but it basically comes down to a single command.  First ensure that you have the latest version of the documentation on your local machine:  git pull  Then, run the following command:  mkdocs gh-deploy --clean  The  gh-deploy  command builds the documentation, then uses the  ghp-import  tool to commit them to the  gh-pages  branch within the  docs  repository and push the  gh-pages  branch to GitHub (which publishes the documents to GitHub pages).", 
+            "title": "Deploy the documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/writing_documentation/#translating-documentation", 
+            "text": "To come.", 
+            "title": "Translating documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/", 
+            "text": "Documentation style guide\n\n\nThe key thing to remember when writing documentation is to be extremely explicit and detailed. Do not assume knowledge!\n\n\nWriting style\n\n\n\n\nWhen in doubt about a grammatical or syntactical point, refer to the \nAssociated Press\ns (AP) Style Guide\n.\n\n\nThough we value good style, please don\u2019t get too hung up on using correct style. We\u2019d rather have you submit good information that doesn\u2019t conform to the guide than no information at all.\n\n\nIn general, try to write simple, declarative prose. We prefer short, single-clause sentences and brief three-to-five sentence paragraphs. Try to choose vocabulary that is straightforward and precise.\n\n\nPronouns\n:\n\n\nUse gender-neutral pronouns (they/their/them) rather than \nhe or she\n.\n\n\nFirst and second person pronouns are fine. Always use \u201cwe\u201d to refer to Coral and \u201cyou\u201d to refer to the user.\n\n\n\n\n\n\nAvoid excessive use of \ni.e.\n.\n\n\nSection headers and page headers should follow sentence case formatting (first word capitalized, following words uncapitalized) rather than title case (each word in the header capitalized).\n\n\nWhenever possible, include a section at the beginning of the page that describes what is contained within that page (with hyperlinks to the relevant sections). Sure, usually this will also appear on the Table of Contents in the side navigation section, but it\ns also useful to have it displayed within the text itself.\n\n\n\n\nDo not assume knowledge\n\n\n\n\nDon\nt be afraid to explain something that might seem very basic or self-explanatory to you; it may not be so basic to someone else.\n\n\nWhenever possible, include an actual, specific instruction and (if required) command.\n\n\nBad: \nClone the repository to your machine.\n\n\nGood: \nClone the docs repository to your local machine, using the command \ngit clone https://github.com/coralproject/docs.git\n\n\n\n\n\n\nIf there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!\n\n\nShow \nexpected results\n wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.\n\n\nIf there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.\n\n\nDo not merely explain HOW to do something, but also, whenever possible, WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.\n\n\n\n\nThird-party components\n\n\nIs there a third-party component the user needs to set up (for instance, MongoDB)?\n\n\n\n\nYou don\nt have to include all setup instructions, but do link to the setup instructions on the website of the third-party app in question (hopefully the third-party app is well-documented; if not, you may have to fill in the gaps).\n\n\nBe sure to detail any specific instructions they will need to integrate this third-party component into the system.\n\n\nCurrently, much of this \nthird party setup\n information resides in the \nDeveloper Setup\n document. This reduces duplication if there is a component that needs to be set up for multiple items.\n\n\n\n\nWriting installation instructions\n\n\n\n\nBe sure to include \nevery single step\n.\n\n\nInclude screenshots when it makes sense to do so.\n\n\nIf there are command line instructions, include the exact instruction in a code block so that users can copy/paste.\n\n\n\n\nWriting API documentation\n\n\nWhen documenting a REST-style API, such as the \nPillar API\n, there are certain pieces of information to include. The \nPillar API documentation\n is a useful template.\n\n\n\n\nCreate an initial table that lists endpoints, which contains:\n\n\nThe endpoint URL.\n\n\nThe HTTP verb for that endpoint (GET, POST).\n\n\nThe basic functionality description for that endpoint. Make this into a targeted link that jumps to the full description for that endpoint.\n\n\n\n\n\n\nCreate a full description for each endpoint. You can see the \nGet Users\n Pillar endpoint for an example). Each description should include:\n\n\nThe parameters for the endpoint (include the parameter name, whether it is required or optional, the type, and the description).\n\n\nAn example call.\n\n\nThe response for the example call (whether that is a JSON object, or simply a status response).\n\n\n\n\n\n\n\n\nUser Guide documentation\n\n\nWhen documenting \nUser Guides\n, it is important to remember that the people reading them may not have in-depth technical knowledge. Keep your audience in mind.\n\n\nWriting User Guide tutorials\n\n\n\n\nTutorials take the reader by the hand through a series of steps to create or achieve something.\n\n\nTutorials should be \nresults oriented\n: by the end of the tutorial, the user will have achieved something.\n\n\nThe important thing in a tutorial is to help the reader achieve something useful, preferably as early as possible, in order to give them confidence.\n\n\nExplain the nature of the problem we\u2019re solving, so that the reader understands what we\u2019re trying to achieve. Don\u2019t feel that you need to begin with explanations of how things work - what matters is what the reader does, not what you explain. It can be helpful to refer back to what you\u2019ve done and explain afterwards.\n\n\n\n\nStructure\n\n\n\n\nThe tutorials for each product are all contained on a single page. View the \nTrust tutorial page\n for an example.\n\n\nAt the top of the tutorial page is a list of the tutorials available on that page. Each has a description in the form of a user story (i.e., \nI would like to\n).\n\n\nA tutorial is not a general overview of the functionality of the product, but a specific how-to that fulfills a user story. The general overview of the product\ns functionality belows on the Overview page for that product.\n\n\nThe goal of a tutorial is to walk the user through a scenario (such as \nidentify trolls within the Business section\n), that they can then tailor to their own needs (\nidentify trolls within the Health section\n).\n\n\n\n\nFormat\n\n\n\n\nTutorials follow a numbered step-by-step format.\n\n\nYou do not have to use the Markdown \nnumbered list\n formatting (in which the numbered list is written \n1.\n for auto-formatting). In fact, it is probably better if you don\nt: things get a bit wonky when you start inserting images in between the numbered steps.\n\n\n\n\n\n\n\n\nImages\n\n\n\n\nEach step (or very nearly each step) should have an image illustrating that step, and potentially showing the location of a button or field. If you do not have an image illustrating that step, you should have a pretty good reason not to have it.\n\n\n\n\nTerminology\n\n\n\n\nGit is capitalized.\n\n\nGitHub capitalizes both the G and the H.\n\n\n\n\nHere are some commonly used terms:\n\n\nSoftware specific\n\n\n\n\nCoral\n: Refers to the Coral product, which includes the three components Trust, Ask, and Talk.\n\n\nCoral Project\n: Refers to the project of building and crafting the Coral product.\n\n\nCoral Ecosystem\n: Refers to all of the pieces that make up Coral from a more technical or development perspective: includes all the technical components such as Pillar, Sponge, and Cay.\n\n\n\n\nUsers\n\n\n\n\nDevelopers\n: Refers to the technical users of Coral who will be installing Coral and working with the backend. Also refers to open-source contributors.\n\n\nEnd Users\n: Refers to anyone who will be interacting with the Coral front end. Examples of end users are publishers, moderators, journalists, and readers.\n\n\n\n\nMarkup specific style\n\n\nGraphics\n\n\nWhen you need to add a graphic, try to make the file-size as small as possible. If you need help reducing file-size of a high-resolution image, feel free to contact us for help. Usually, graphics should go in the same directory as the .md file that references them, or in a subdirectory for images if one already exists.\n\n\nThe preferred file format for graphics is PNG, but GIF and JPG are also acceptable.\n\n\nIf you are referring to a specific part of the UI in an image, use call-outs (circles and arrows or lines) to highlight what you\u2019re referring to. Line width for call-outs should not exceed five pixels. The preferred color for call-outs is red.\n\n\nBe sure to include descriptive alt-text for the graphic. This greatly helps users with accessibility issues.\n\n\n\n\nThe color used for highlighting rectangles and arrows is Hex Color #00C7FC. This offers a good contrast with the Coral theme colors.\n\n\nWhen taking screenshots to use as illustrative images, include a decent amount of \nsurrounding area\n to provide context and geography for the feature you\nre discussing. A screenshot of a button, for instance, isn\nt very useful when you can\nt figure out where the button is located.\n\n\n\n\nCommands and code blocks\n\n\n\n\nEnclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.\n\n\nBe sure you are using universal command line commands, not shortcuts available in some shells.\n\n\nGood: \nmkdir exampledirectory\n\n\nBad: \nmd exampledirectory\n\n\n\n\n\n\n\n\nHeaders\n\n\n\n\nWhen adding headlines and section dividers, keep in mind that the Table of Contents displayed in the side navigation bar to the left is only two levels deep. So, H1 (#) and H2 (##) text will show up in the Table of Contents. H3 (###) and below will not.\n\n\nTo avoid making the Table of Contents too cluttered, try to only use H2 (##) for key large sections.", 
+            "title": "Documentation style guide"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#documentation-style-guide", 
             "text": "The key thing to remember when writing documentation is to be extremely explicit and detailed. Do not assume knowledge!", 
+            "title": "Documentation style guide"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#writing-style", 
+            "text": "When in doubt about a grammatical or syntactical point, refer to the  Associated Press s (AP) Style Guide .  Though we value good style, please don\u2019t get too hung up on using correct style. We\u2019d rather have you submit good information that doesn\u2019t conform to the guide than no information at all.  In general, try to write simple, declarative prose. We prefer short, single-clause sentences and brief three-to-five sentence paragraphs. Try to choose vocabulary that is straightforward and precise.  Pronouns :  Use gender-neutral pronouns (they/their/them) rather than  he or she .  First and second person pronouns are fine. Always use \u201cwe\u201d to refer to Coral and \u201cyou\u201d to refer to the user.    Avoid excessive use of  i.e. .  Section headers and page headers should follow sentence case formatting (first word capitalized, following words uncapitalized) rather than title case (each word in the header capitalized).  Whenever possible, include a section at the beginning of the page that describes what is contained within that page (with hyperlinks to the relevant sections). Sure, usually this will also appear on the Table of Contents in the side navigation section, but it s also useful to have it displayed within the text itself.", 
             "title": "Writing style"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#do-not-assume-knowledge", 
-            "text": "Whenever possible, include an actual instruction.  Good:  If there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!    Show  expected results  wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.  If there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.  Do not merely explain HOW to do something, but also WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.", 
+            "location": "/contribute/documentation/style_guide/#do-not-assume-knowledge", 
+            "text": "Don t be afraid to explain something that might seem very basic or self-explanatory to you; it may not be so basic to someone else.  Whenever possible, include an actual, specific instruction and (if required) command.  Bad:  Clone the repository to your machine.  Good:  Clone the docs repository to your local machine, using the command  git clone https://github.com/coralproject/docs.git    If there are command line instructions involved, include the precise command line instruction. Instructions that users can copy/paste into the command line are great!  Show  expected results  wherever possible. If a command line instruction should return a certain result, show that expected result. If there is a URL you can visit to test whether or not something is working, provide that URL as a link.  If there are variables to configure, explicitly state the purpose of the variables. This should be explained in a comment in the configuration file, but you should also provide an explanation in your instructions.  Do not merely explain HOW to do something, but also, whenever possible, WHY you are doing it in that way. This makes it easier for users to troubleshoot issues.", 
             "title": "Do not assume knowledge"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#commands-and-code-blocks", 
-            "text": "Enclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.  Be sure you are using universal command line commands, not shortcuts available in some shells!  Good:  mkdir exampledirectory  Bad:  md exampledirectory", 
-            "title": "Commands and code blocks"
-        }, 
-        {
-            "location": "/contribute/documentation/writing_documentation/#third-party-components", 
-            "text": "Is there a third-party component the user needs to set up (for instance, MongoDB)?   Don t include all setup instructions, but do link to the setup instructions on the website of the third-party app in question.  Be sure to detail any specific instructions they will need to integrate this third-party component into the system.  Currently, much of this  third party setup  information resides in the  Developer Setup  document. This reduces duplication if there is a component that needs to be set up for multiple items.", 
+            "location": "/contribute/documentation/style_guide/#third-party-components", 
+            "text": "Is there a third-party component the user needs to set up (for instance, MongoDB)?   You don t have to include all setup instructions, but do link to the setup instructions on the website of the third-party app in question (hopefully the third-party app is well-documented; if not, you may have to fill in the gaps).  Be sure to detail any specific instructions they will need to integrate this third-party component into the system.  Currently, much of this  third party setup  information resides in the  Developer Setup  document. This reduces duplication if there is a component that needs to be set up for multiple items.", 
             "title": "Third-party components"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#markup-specific-style", 
-            "text": "When adding headlines and section dividers, keep in mind that H1 (#) and H2 (##) text shows up in the Table of Contents. H3 (###) and below does not.  To avoid making the ToC too cluttered, try to only use H2 (##) for key large sections.", 
-            "title": "Markup specific style"
+            "location": "/contribute/documentation/style_guide/#writing-installation-instructions", 
+            "text": "Be sure to include  every single step .  Include screenshots when it makes sense to do so.  If there are command line instructions, include the exact instruction in a code block so that users can copy/paste.", 
+            "title": "Writing installation instructions"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#installation-instructions", 
-            "text": "Be sure to include  every single step . Preferably copy paste.  When working from the command line, include every step in code blocks.", 
-            "title": "Installation instructions"
-        }, 
-        {
-            "location": "/contribute/documentation/writing_documentation/#api-documentation", 
+            "location": "/contribute/documentation/style_guide/#writing-api-documentation", 
             "text": "When documenting a REST-style API, such as the  Pillar API , there are certain pieces of information to include. The  Pillar API documentation  is a useful template.   Create an initial table that lists endpoints, which contains:  The endpoint URL.  The HTTP verb for that endpoint (GET, POST).  The basic functionality description for that endpoint. Make this into a targeted link that jumps to the full description for that endpoint.    Create a full description for each endpoint. You can see the  Get Users  Pillar endpoint for an example). Each description should include:  The parameters for the endpoint (include the parameter name, whether it is required or optional, the type, and the description).  An example call.  The response for the example call (whether that is a JSON object, or simply a status response).", 
-            "title": "API documentation"
+            "title": "Writing API documentation"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#terminology", 
-            "text": "Here are some commonly used terms:", 
+            "location": "/contribute/documentation/style_guide/#user-guide-documentation", 
+            "text": "When documenting  User Guides , it is important to remember that the people reading them may not have in-depth technical knowledge. Keep your audience in mind.", 
+            "title": "User Guide documentation"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#writing-user-guide-tutorials", 
+            "text": "Tutorials take the reader by the hand through a series of steps to create or achieve something.  Tutorials should be  results oriented : by the end of the tutorial, the user will have achieved something.  The important thing in a tutorial is to help the reader achieve something useful, preferably as early as possible, in order to give them confidence.  Explain the nature of the problem we\u2019re solving, so that the reader understands what we\u2019re trying to achieve. Don\u2019t feel that you need to begin with explanations of how things work - what matters is what the reader does, not what you explain. It can be helpful to refer back to what you\u2019ve done and explain afterwards.", 
+            "title": "Writing User Guide tutorials"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#structure", 
+            "text": "The tutorials for each product are all contained on a single page. View the  Trust tutorial page  for an example.  At the top of the tutorial page is a list of the tutorials available on that page. Each has a description in the form of a user story (i.e.,  I would like to ).  A tutorial is not a general overview of the functionality of the product, but a specific how-to that fulfills a user story. The general overview of the product s functionality belows on the Overview page for that product.  The goal of a tutorial is to walk the user through a scenario (such as  identify trolls within the Business section ), that they can then tailor to their own needs ( identify trolls within the Health section ).", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#format", 
+            "text": "Tutorials follow a numbered step-by-step format.  You do not have to use the Markdown  numbered list  formatting (in which the numbered list is written  1.  for auto-formatting). In fact, it is probably better if you don t: things get a bit wonky when you start inserting images in between the numbered steps.", 
+            "title": "Format"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#images", 
+            "text": "Each step (or very nearly each step) should have an image illustrating that step, and potentially showing the location of a button or field. If you do not have an image illustrating that step, you should have a pretty good reason not to have it.", 
+            "title": "Images"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#terminology", 
+            "text": "Git is capitalized.  GitHub capitalizes both the G and the H.   Here are some commonly used terms:", 
             "title": "Terminology"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#software-specific", 
+            "location": "/contribute/documentation/style_guide/#software-specific", 
             "text": "Coral : Refers to the Coral product, which includes the three components Trust, Ask, and Talk.  Coral Project : Refers to the project of building and crafting the Coral product.  Coral Ecosystem : Refers to all of the pieces that make up Coral from a more technical or development perspective: includes all the technical components such as Pillar, Sponge, and Cay.", 
             "title": "Software specific"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#users", 
+            "location": "/contribute/documentation/style_guide/#users", 
             "text": "Developers : Refers to the technical users of Coral who will be installing Coral and working with the backend. Also refers to open-source contributors.  End Users : Refers to anyone who will be interacting with the Coral front end. Examples of end users are publishers, moderators, journalists, and readers.", 
             "title": "Users"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#release-notes", 
+            "location": "/contribute/documentation/style_guide/#markup-specific-style", 
             "text": "", 
-            "title": "Release notes"
+            "title": "Markup specific style"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#improving-the-documentation", 
-            "text": "Improvements are welcomed! Did you perform an installation, and found some of the language or instructions confusing or missing? Help us fix it!", 
-            "title": "Improving the documentation"
+            "location": "/contribute/documentation/style_guide/#graphics", 
+            "text": "When you need to add a graphic, try to make the file-size as small as possible. If you need help reducing file-size of a high-resolution image, feel free to contact us for help. Usually, graphics should go in the same directory as the .md file that references them, or in a subdirectory for images if one already exists.  The preferred file format for graphics is PNG, but GIF and JPG are also acceptable.  If you are referring to a specific part of the UI in an image, use call-outs (circles and arrows or lines) to highlight what you\u2019re referring to. Line width for call-outs should not exceed five pixels. The preferred color for call-outs is red.  Be sure to include descriptive alt-text for the graphic. This greatly helps users with accessibility issues.   The color used for highlighting rectangles and arrows is Hex Color #00C7FC. This offers a good contrast with the Coral theme colors.  When taking screenshots to use as illustrative images, include a decent amount of  surrounding area  to provide context and geography for the feature you re discussing. A screenshot of a button, for instance, isn t very useful when you can t figure out where the button is located.", 
+            "title": "Graphics"
         }, 
         {
-            "location": "/contribute/documentation/writing_documentation/#translating-documentation", 
-            "text": "", 
-            "title": "Translating documentation"
+            "location": "/contribute/documentation/style_guide/#commands-and-code-blocks", 
+            "text": "Enclose commands and code blocks in triple-tick blocks (```). Yes, Markdown supports indentation to delineate code blocks, but the triple-ticks make things more explicit.  Be sure you are using universal command line commands, not shortcuts available in some shells.  Good:  mkdir exampledirectory  Bad:  md exampledirectory", 
+            "title": "Commands and code blocks"
+        }, 
+        {
+            "location": "/contribute/documentation/style_guide/#headers", 
+            "text": "When adding headlines and section dividers, keep in mind that the Table of Contents displayed in the side navigation bar to the left is only two levels deep. So, H1 (#) and H2 (##) text will show up in the Table of Contents. H3 (###) and below will not.  To avoid making the Table of Contents too cluttered, try to only use H2 (##) for key large sections.", 
+            "title": "Headers"
         }, 
         {
             "location": "/contribute/reporting_bugs/", 
@@ -1637,12 +1852,12 @@
         }, 
         {
             "location": "/contribute/development/writing_code/", 
-            "text": "Writing Code\n\n\nSo you\u2019d like to write some code to improve the Coral Project? Great!\n\n\nBefore you begin\n\n\nBefore writing any code with the intention of merging into master, ensure the work you\nre doing has an GitHub issue and try in good faith to engage the community in conversation in the issue feed. Here is a checklist to follow before starting:\n\n\n\n\nCheck the FAQ to see if your issue has already been addressed.\n\n\nCheck the GitHub issues to see if an issue already exists for the work you want to do, and to make sure that there isn\nt already someone working on it.\n\n\nIf there isn\nt already someone working on it, then leave a comment to let everyone know that you are starting work on it.\n\n\nIf someone is already working on it, consider collaborating with them.\n\n\n\n\n\n\nIf no issue exists, then create an issue for it before getting started. You can find more information on writing a detailed issue \nhere\n.\n\n\n\n\nWriting code\n\n\nOnce you\nve followed the checklist above, browse the following sections to find out how to give your code the best chance of being included in the Coral Project.\n\n\n\n\nCoding style\n\n\nWorking with Git and GitHub", 
+            "text": "Writing Code\n\n\nSo you\u2019d like to write some code to improve the Coral Project? Great!\n\n\n\n\nBug fixing\n\n\nNew features\n\n\nPlugins\n\n\n\n\nBefore you begin\n\n\nBefore writing any code with the intention of merging into master, ensure the work you\nre doing has an GitHub issue and try in good faith to engage the community in conversation in the issue feed. Here is a checklist to follow before starting:\n\n\n\n\nCheck the FAQ to see if your issue has already been addressed.\n\n\nCheck the GitHub issues to see if an issue already exists for the work you want to do, and to make sure that there isn\nt already someone working on it.\n\n\nIf there isn\nt already someone working on it, then leave a comment to let everyone know that you are starting work on it.\n\n\nIf someone is already working on it, consider collaborating with them.\n\n\n\n\n\n\nIf no issue exists, then create an issue for it before getting started. You can find more information on writing a detailed issue \nhere\n.\n\n\n\n\n\n\nWriting code\n\n\nOnce you\nve followed the checklist above, browse the following sections to find out how to give your code the best chance of being included in the Coral Project.\n\n\n\n\nCoding style\n\n\nWorking with Git and GitHub", 
             "title": "Writing code"
         }, 
         {
             "location": "/contribute/development/writing_code/#writing-code", 
-            "text": "So you\u2019d like to write some code to improve the Coral Project? Great!", 
+            "text": "So you\u2019d like to write some code to improve the Coral Project? Great!   Bug fixing  New features  Plugins", 
             "title": "Writing Code"
         }, 
         {
@@ -1706,34 +1921,64 @@
             "title": "Exceptions"
         }, 
         {
-            "location": "/contribute/development/code_style/", 
-            "text": "Coding Style\n\n\nGo Coding Style\n\n\nUnless explicitly stated, we follow all coding guidelines from the Go\ncommunity. While some of these standards may seem arbitrary, they somehow seem\nto result in a solid, consistent codebase.\n\n\nIt is possible that the code base does not currently comply with these\nguidelines. We are not looking for a massive PR that fixes this, since that\ngoes against the spirit of the guidelines. All new contributions should make a\nbest effort to clean up and make the code base better than they left it.\nObviously, apply your best judgement. Remember, the goal here is to make the\ncode base easier for humans to navigate and understand. Always keep that in\nmind when nudging others to comply.\n\n\nThe rules:\n\n\n\n\nAll code should be formatted with \ngofmt -s\n.\n\n\nAll code should pass the default levels of\n   \ngolint\n.\n\n\nAll code should follow the guidelines covered in \nEffective\n   Go\n and \nGo Code Review\n   Comments\n.\n\n\nComment the code. Tell us the why, the history and the context.\n\n\nDocument \nall\n declarations and methods, even private ones. Declare\n   expectations, caveats and anything else that may be important. If a type\n   gets exported, having the comments already there will ensure it\ns ready.\n\n\nVariable name length should be proportional to it\ns context and no longer.\n   \nnoCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo\n.\n   In practice, short methods will have short variable names and globals will\n   have longer names.\n\n\nNo underscores in package names. If you need a compound name, step back,\n   and re-examine why you need a compound name. If you still think you need a\n   compound name, lose the underscore.\n\n\nNo utils or helpers packages. If a function is not general enough to\n   warrant it\ns own package, it has not been written generally enough to be a\n   part of a util package. Just leave it unexported and well-documented.\n\n\nAll tests should run with \ngo test\n and outside tooling should not be\n   required. No, we don\nt need another unit testing framework. Assertion\n   packages are acceptable if they provide \nreal\n incremental value.\n\n\nEven though we call these \nrules\n above, they are actually just\n    guidelines. Since you\nve read all the rules, you now know that.\n\n\n\n\nIf you are having trouble getting into the mood of idiomatic Go, we recommend\nreading through \nEffective Go\n. The\n\nGo Blog\n is also a great resource. Drinking the\nkool-aid is a lot easier than going thirsty.\n\n\nAttribution: Go Coding Style adopted from the Docker project.\n\n\nUseful Tools when developing\n\n\n\n\ngolint\n\n\ngofmt\n\n\ngoimports\n\n\ngo vet\n\n\nerrcheck\n\n\n\n\nResources\n\n\n\n\nGo Code Review Comments\n\n\nBest Practices for Production Environments\n\n\n12 Factor App\n\n\nTools for working with Go Code\n\n\n\n\nJavascript conventions\n\n\nWe are currently working under the \nAirbnb js react conventions\n.", 
-            "title": "Coding styleguide"
+            "location": "/contribute/development/style_guide/", 
+            "text": "Coding style guide\n\n\nIf you are planning to contribute to the Coral code base, you should familiarize yourself with our coding standards. This helps to avoid common errors, improves code readability, and ensures that your PRs have a better chance of getting accepted and merged.\n\n\nThe coding style guide consists of the following sections:\n\n\n\n\nCore code principles\n\n\nWorking with repositories (naming, describing, etc.)\n\n\nWorking with Git (creating good commit messages)\n\n\nGo coding style\n\n\nNode.js / Javascript coding style\n\n\nAdditional resources\n\n\n\n\nCore code principles\n\n\nThese are the four basic principles that guide how we shape and build our code. All Coral Project software is conceived from the ground up to be:\n\n\n\n\nConfigurable\n: We strive to use configuration to deliver as much business logic, data modeling, and other aspects of our systems as \nis practical.\n Doing so gives us the ability to quickly configure precise UI experiences, data structures, and data science analysis with minimal need for coding, upgrades, server work, etc. Ultimately, we want the community managers who run our software to feel like they are designing their own house. This means trying things to see how they feel, looking at the results, and quickly making changes based on what they learn. We take our inspiration from the ever-changing, adaptable ecosystems of coral reefs.\n\n\nModular\n: Coral products can be used together to form a fully functioning community platform, or be used in pieces to complement existing software. In order to accomplish this, we are building core API features, message passing and import/export strategies in everything we do. We are also refining, documenting, and publishing deployment strategies for each of our products both in isolation as well as together as groups of our products configured to work in concert.\n\n\nPrivacy Minded\n: There is an implicit act of trust involved in registration for and engagement in an online community. Maintaining that trust is a top priority for us. Privacy for us begins with security concerns, and stretches deep into our product thinking. Whenever information is entered into our systems, we want to make it clear who will be able to see that information and how it will be used. We want to build safe, comfortable places that allow for conversations of varying levels of exposure, without false expectations or nasty surprises.\n\n\nSecure, Stable and Scalable\n: Our deployment recommendations, if followed, provide usable and secure environments. Each piece of our software has internal checks to catch any error states and trigger alarms, as well as external restart mechanisms. All of our platforms have proven records for stability and well-known upgrade paths. We will publish auto-scaling deployment workflows where appropriate for large sites with varying loads.\n\n\n\n\nWorking with repositories\n\n\nRepository naming\n\n\nAs you may have guessed, each component of Coral is named after a different type of coral. We like to match up some traits of the particular type of coral with the functionality of the component, but that\ns not always possible.\n\n\nChoose a variety of coral to name your repo. Make sure that there isn\nt already a repo named something similar.\n\n\nRepository descriptions\n\n\nThe description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it\ns better to describe what is contained in the repo itself instead of describing the project.\n\n\nRepo descriptions should be clear, concise, and descriptive. Descriptions are listed under each repository title on an organization\u2019s GitHub page. Anyone who scans the GitHub page should be able to determine what a repo does, just by looking at the description.\n\n\nIf your repo is not in active development, it\u2019s helpful to let users know this so they don\u2019t make contributions to a non-active repository. We suggest adding the word DEPRECATED before your repo description.\n\n\nGo coding style\n\n\nFor our Go code, we follow all coding guidelines laid out by the Go community, as detailed in their \nEffective Go\n guide. This helps us to maintain a consistent code base. We also use the \nGo Code Review Comments\n as a guide.\n\n\nAlthough not all of our code may comply 100% with the \nEffective Go\n guidelines, we\nre not looking for an overhaul of our code to make everything comply. Rather, all new contributions should comply with the guidelines. The ultimate goal is to make the code base easier for humans to navigate and understand.\n\n\nA few specific rules we follow\n\n\n\n\nAll code should be formatted with \ngofmt -s\n. (Read more about \ngofmt here\n.)\n\n\nAll code should pass the default levels of\n   \ngolint\n.\n\n\nComment the code. Tell us the why, the history and the context.\n\n\nDocument \nall\n declarations and methods, even private ones. Declare expectations, caveats and anything else that may be important. If a type gets exported, having the comments already there will ensure it\ns ready.\n\n\nThe length of a variable names should be proportional to its context, and preferably relatively short. In practice, short methods will have short variable names and globals will have longer names.\n\n\nBad: \nnoCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo\n.\n\n\n\n\n\n\nNo underscores in package names. If you need a compound name, step back, and re-examine why you need a compound name. If you still think you need a compound name, lose the underscore.\n\n\nNo utils or helper packages. If a function is not general enough to warrant its own package, it has not been written generally enough to be a part of a util package. Just leave it unexported and well-documented.\n\n\nAll tests should run with \ngo test\n and outside tooling should not be required. No, we don\nt need another unit testing framework. Assertion packages are acceptable if they provide \nreal\n incremental value.\n\n\nEven though we call these \nrules\n above, they are actually just guidelines. Since you\nve read all the rules, you now know that.\n\n\n\n\nUseful tools when developing in Go\n\n\n\n\ngolint\n: a linter for Go code.\n\n\ngofmt\n: a command that formats Go programs.\n\n\ngoimports\n: a command that updates your Go import lines.\n\n\nvet\n: a tool that examines Go code and reports suspicious constructs.\n\n\nerrcheck\n: a tool that checks for unchecked errors in Go programs.\n\n\n\n\nNode.js / Javascript coding style\n\n\nWe use the \nAirbnb React/JSX Style Guide\n when working with Javascript.\n\n\nCommenting\n\n\nCode commenting is crucial to maintaining a readable code base that future developers can understand and build upon. You can find a nice \nprimer on good commenting practice here\n.\n\n\n\n\nProvide the why, the history, and context.\n\n\nWhy: Why are you writing the code in exactly the way that you are?\n\n\nHistory: What historical decisions or factors went into writing the code in this way?\n\n\nContext: Are there any other factors we should know about that went into writing or developing this piece of code?\n\n\n\n\n\n\nDocument \nall\n declarations and methods, even private ones. Declare expectations, caveats and anything else that may be important. If a type gets exported, having the comments already there will ensure it\ns ready.\n\n\nKeep everything readable:\n Remember that the comments will be read by humans. Keep it simple, brief, and clear.\n\n\nWhitespace is important:\n\n\nComment while coding:\n\n\n\n\nResources\n\n\nSome further reading, particularly on the subject of Go:\n\n\n\n\nGo Code Review Comments\n\n\nBest Practices for Production Environments\n\n\n12 Factor App\n\n\nTools for working with Go Code\n\n\n\n\nAttribution: Go Coding Style adopted from the Docker project.", 
+            "title": "Coding style guide"
         }, 
         {
-            "location": "/contribute/development/code_style/#coding-style", 
+            "location": "/contribute/development/style_guide/#coding-style-guide", 
+            "text": "If you are planning to contribute to the Coral code base, you should familiarize yourself with our coding standards. This helps to avoid common errors, improves code readability, and ensures that your PRs have a better chance of getting accepted and merged.  The coding style guide consists of the following sections:   Core code principles  Working with repositories (naming, describing, etc.)  Working with Git (creating good commit messages)  Go coding style  Node.js / Javascript coding style  Additional resources", 
+            "title": "Coding style guide"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#core-code-principles", 
+            "text": "These are the four basic principles that guide how we shape and build our code. All Coral Project software is conceived from the ground up to be:   Configurable : We strive to use configuration to deliver as much business logic, data modeling, and other aspects of our systems as  is practical.  Doing so gives us the ability to quickly configure precise UI experiences, data structures, and data science analysis with minimal need for coding, upgrades, server work, etc. Ultimately, we want the community managers who run our software to feel like they are designing their own house. This means trying things to see how they feel, looking at the results, and quickly making changes based on what they learn. We take our inspiration from the ever-changing, adaptable ecosystems of coral reefs.  Modular : Coral products can be used together to form a fully functioning community platform, or be used in pieces to complement existing software. In order to accomplish this, we are building core API features, message passing and import/export strategies in everything we do. We are also refining, documenting, and publishing deployment strategies for each of our products both in isolation as well as together as groups of our products configured to work in concert.  Privacy Minded : There is an implicit act of trust involved in registration for and engagement in an online community. Maintaining that trust is a top priority for us. Privacy for us begins with security concerns, and stretches deep into our product thinking. Whenever information is entered into our systems, we want to make it clear who will be able to see that information and how it will be used. We want to build safe, comfortable places that allow for conversations of varying levels of exposure, without false expectations or nasty surprises.  Secure, Stable and Scalable : Our deployment recommendations, if followed, provide usable and secure environments. Each piece of our software has internal checks to catch any error states and trigger alarms, as well as external restart mechanisms. All of our platforms have proven records for stability and well-known upgrade paths. We will publish auto-scaling deployment workflows where appropriate for large sites with varying loads.", 
+            "title": "Core code principles"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#working-with-repositories", 
             "text": "", 
-            "title": "Coding Style"
+            "title": "Working with repositories"
         }, 
         {
-            "location": "/contribute/development/code_style/#go-coding-style", 
-            "text": "Unless explicitly stated, we follow all coding guidelines from the Go\ncommunity. While some of these standards may seem arbitrary, they somehow seem\nto result in a solid, consistent codebase.  It is possible that the code base does not currently comply with these\nguidelines. We are not looking for a massive PR that fixes this, since that\ngoes against the spirit of the guidelines. All new contributions should make a\nbest effort to clean up and make the code base better than they left it.\nObviously, apply your best judgement. Remember, the goal here is to make the\ncode base easier for humans to navigate and understand. Always keep that in\nmind when nudging others to comply.  The rules:   All code should be formatted with  gofmt -s .  All code should pass the default levels of\n    golint .  All code should follow the guidelines covered in  Effective\n   Go  and  Go Code Review\n   Comments .  Comment the code. Tell us the why, the history and the context.  Document  all  declarations and methods, even private ones. Declare\n   expectations, caveats and anything else that may be important. If a type\n   gets exported, having the comments already there will ensure it s ready.  Variable name length should be proportional to it s context and no longer.\n    noCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo .\n   In practice, short methods will have short variable names and globals will\n   have longer names.  No underscores in package names. If you need a compound name, step back,\n   and re-examine why you need a compound name. If you still think you need a\n   compound name, lose the underscore.  No utils or helpers packages. If a function is not general enough to\n   warrant it s own package, it has not been written generally enough to be a\n   part of a util package. Just leave it unexported and well-documented.  All tests should run with  go test  and outside tooling should not be\n   required. No, we don t need another unit testing framework. Assertion\n   packages are acceptable if they provide  real  incremental value.  Even though we call these  rules  above, they are actually just\n    guidelines. Since you ve read all the rules, you now know that.   If you are having trouble getting into the mood of idiomatic Go, we recommend\nreading through  Effective Go . The Go Blog  is also a great resource. Drinking the\nkool-aid is a lot easier than going thirsty.  Attribution: Go Coding Style adopted from the Docker project.", 
-            "title": "Go Coding Style"
+            "location": "/contribute/development/style_guide/#repository-naming", 
+            "text": "As you may have guessed, each component of Coral is named after a different type of coral. We like to match up some traits of the particular type of coral with the functionality of the component, but that s not always possible.  Choose a variety of coral to name your repo. Make sure that there isn t already a repo named something similar.", 
+            "title": "Repository naming"
         }, 
         {
-            "location": "/contribute/development/code_style/#useful-tools-when-developing", 
-            "text": "golint  gofmt  goimports  go vet  errcheck", 
-            "title": "Useful Tools when developing"
+            "location": "/contribute/development/style_guide/#repository-descriptions", 
+            "text": "The description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it s better to describe what is contained in the repo itself instead of describing the project.  Repo descriptions should be clear, concise, and descriptive. Descriptions are listed under each repository title on an organization\u2019s GitHub page. Anyone who scans the GitHub page should be able to determine what a repo does, just by looking at the description.  If your repo is not in active development, it\u2019s helpful to let users know this so they don\u2019t make contributions to a non-active repository. We suggest adding the word DEPRECATED before your repo description.", 
+            "title": "Repository descriptions"
         }, 
         {
-            "location": "/contribute/development/code_style/#resources", 
-            "text": "Go Code Review Comments  Best Practices for Production Environments  12 Factor App  Tools for working with Go Code", 
+            "location": "/contribute/development/style_guide/#go-coding-style", 
+            "text": "For our Go code, we follow all coding guidelines laid out by the Go community, as detailed in their  Effective Go  guide. This helps us to maintain a consistent code base. We also use the  Go Code Review Comments  as a guide.  Although not all of our code may comply 100% with the  Effective Go  guidelines, we re not looking for an overhaul of our code to make everything comply. Rather, all new contributions should comply with the guidelines. The ultimate goal is to make the code base easier for humans to navigate and understand.", 
+            "title": "Go coding style"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#a-few-specific-rules-we-follow", 
+            "text": "All code should be formatted with  gofmt -s . (Read more about  gofmt here .)  All code should pass the default levels of\n    golint .  Comment the code. Tell us the why, the history and the context.  Document  all  declarations and methods, even private ones. Declare expectations, caveats and anything else that may be important. If a type gets exported, having the comments already there will ensure it s ready.  The length of a variable names should be proportional to its context, and preferably relatively short. In practice, short methods will have short variable names and globals will have longer names.  Bad:  noCommaALongVariableNameLikeThisIsNotMoreClearWhenASimpleCommentWouldDo .    No underscores in package names. If you need a compound name, step back, and re-examine why you need a compound name. If you still think you need a compound name, lose the underscore.  No utils or helper packages. If a function is not general enough to warrant its own package, it has not been written generally enough to be a part of a util package. Just leave it unexported and well-documented.  All tests should run with  go test  and outside tooling should not be required. No, we don t need another unit testing framework. Assertion packages are acceptable if they provide  real  incremental value.  Even though we call these  rules  above, they are actually just guidelines. Since you ve read all the rules, you now know that.", 
+            "title": "A few specific rules we follow"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#useful-tools-when-developing-in-go", 
+            "text": "golint : a linter for Go code.  gofmt : a command that formats Go programs.  goimports : a command that updates your Go import lines.  vet : a tool that examines Go code and reports suspicious constructs.  errcheck : a tool that checks for unchecked errors in Go programs.", 
+            "title": "Useful tools when developing in Go"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#nodejs-javascript-coding-style", 
+            "text": "We use the  Airbnb React/JSX Style Guide  when working with Javascript.", 
+            "title": "Node.js / Javascript coding style"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#commenting", 
+            "text": "Code commenting is crucial to maintaining a readable code base that future developers can understand and build upon. You can find a nice  primer on good commenting practice here .   Provide the why, the history, and context.  Why: Why are you writing the code in exactly the way that you are?  History: What historical decisions or factors went into writing the code in this way?  Context: Are there any other factors we should know about that went into writing or developing this piece of code?    Document  all  declarations and methods, even private ones. Declare expectations, caveats and anything else that may be important. If a type gets exported, having the comments already there will ensure it s ready.  Keep everything readable:  Remember that the comments will be read by humans. Keep it simple, brief, and clear.  Whitespace is important:  Comment while coding:", 
+            "title": "Commenting"
+        }, 
+        {
+            "location": "/contribute/development/style_guide/#resources", 
+            "text": "Some further reading, particularly on the subject of Go:   Go Code Review Comments  Best Practices for Production Environments  12 Factor App  Tools for working with Go Code   Attribution: Go Coding Style adopted from the Docker project.", 
             "title": "Resources"
-        }, 
-        {
-            "location": "/contribute/development/code_style/#javascript-conventions", 
-            "text": "We are currently working under the  Airbnb js react conventions .", 
-            "title": "Javascript conventions"
         }, 
         {
             "location": "/contribute/supporting_the_community/", 
@@ -1786,8 +2031,48 @@
             "title": "To Be Determined"
         }, 
         {
+            "location": "/contribute/coral_naming/", 
+            "text": "Coral naming\n\n\nAre you curious about why we\nve named things the way that we have? As you may have guessed, each component of Coral is named after a different type of coral.\n\n\nCay\n\n\nCay is our front-end app, which makes sense because a cay is a small, low-elevation, sandy island on the surface of a coral reef. https://en.wikipedia.org/wiki/Cay\n\n\nElkhorn\n\n\nElkhorn coral is a coral species that builds large branches. These branches create habitats for other species.\n\n\nThis makes sense because Elkhorn is an form composer and embeddable builder: it, too, creates habitats for other species to come into the Coral ecosystem. https://en.wikipedia.org/wiki/Elkhorn_coral\n\n\nPillar\n\n\nPillar coral is a digitate coral, which means it resembles fingers or pillars rising up.\n\n\nREST API\n\n\nhttps://en.wikipedia.org/wiki/Pillar_coral\n\n\nSponge\n\n\nSponge is a porous organism that water can circulate through (and where it can then filter out food particles as the water circulates through). In the same way, the Sponge component of Coral takes in data and extracts it before passing it along.\n\n\nhttps://en.wikipedia.org/wiki/Sponge\n\n\nXenia\n\n\nXenia is a soft marine coral with \narms\n and \nhands\n that can pulse or push water around.\n\n\nhttps://en.wikipedia.org/wiki/Xenia_(genus)", 
+            "title": "Coral naming"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#coral-naming", 
+            "text": "Are you curious about why we ve named things the way that we have? As you may have guessed, each component of Coral is named after a different type of coral.", 
+            "title": "Coral naming"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#cay", 
+            "text": "Cay is our front-end app, which makes sense because a cay is a small, low-elevation, sandy island on the surface of a coral reef. https://en.wikipedia.org/wiki/Cay", 
+            "title": "Cay"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#elkhorn", 
+            "text": "Elkhorn coral is a coral species that builds large branches. These branches create habitats for other species.  This makes sense because Elkhorn is an form composer and embeddable builder: it, too, creates habitats for other species to come into the Coral ecosystem. https://en.wikipedia.org/wiki/Elkhorn_coral", 
+            "title": "Elkhorn"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#pillar", 
+            "text": "Pillar coral is a digitate coral, which means it resembles fingers or pillars rising up.  REST API  https://en.wikipedia.org/wiki/Pillar_coral", 
+            "title": "Pillar"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#sponge", 
+            "text": "Sponge is a porous organism that water can circulate through (and where it can then filter out food particles as the water circulates through). In the same way, the Sponge component of Coral takes in data and extracts it before passing it along.  https://en.wikipedia.org/wiki/Sponge", 
+            "title": "Sponge"
+        }, 
+        {
+            "location": "/contribute/coral_naming/#xenia", 
+            "text": "Xenia is a soft marine coral with  arms  and  hands  that can pulse or push water around.  https://en.wikipedia.org/wiki/Xenia_(genus)", 
+            "title": "Xenia"
+        }, 
+        {
             "location": "/faq/", 
-            "text": "", 
+            "text": "FAQ\n\n\nContent to come, as we start getting some Frequently Asked Questions to answer.", 
+            "title": "FAQ"
+        }, 
+        {
+            "location": "/faq/#faq", 
+            "text": "Content to come, as we start getting some Frequently Asked Questions to answer.", 
             "title": "FAQ"
         }
     ]

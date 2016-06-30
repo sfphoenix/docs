@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Installation - Coral Project Docs</title>
+	<title>Architectural overview - Coral Project Docs</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -62,13 +62,13 @@
                     
                         
 <li >
-    <a href="../../developer/">Introduction</a>
+    <a href="../">Introduction</a>
 </li>
 
                     
                         
-<li >
-    <a href="../../developer/coral_ecosystem/">Architectural overview</a>
+<li class="active">
+    <a href="./">Architectural overview</a>
 </li>
 
                     
@@ -80,7 +80,7 @@
                     
                         
 <li >
-    <a href="../../developer/developer_setup/">Developer tools setup</a>
+    <a href="../developer_setup/">Developer tools setup</a>
 </li>
 
                     
@@ -199,25 +199,25 @@
         
             
 <li >
-    <a href="../">Introduction</a>
+    <a href="../../xenia/">Introduction</a>
 </li>
 
         
             
 <li >
-    <a href="../install/">Installation</a>
+    <a href="../../xenia/install/">Installation</a>
 </li>
 
         
             
 <li >
-    <a href="../api/">API and query management</a>
+    <a href="../../xenia/api/">API and query management</a>
 </li>
 
         
             
 <li >
-    <a href="../tests/">Testing</a>
+    <a href="../../xenia/tests/">Testing</a>
 </li>
 
         
@@ -232,19 +232,19 @@
         
             
 <li >
-    <a href="../xenia-driver-js/">Introduction</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="./">Installation</a>
+    <a href="../../xenia/xenia-driver-js/">Introduction</a>
 </li>
 
         
             
 <li >
-    <a href="../xenia-driver-js-api/">API</a>
+    <a href="../../xenia/xenia-driver-js-install/">Installation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../xenia/xenia-driver-js-api/">API</a>
 </li>
 
         
@@ -419,12 +419,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../xenia-driver-js/">
+                    <a rel="next" href="../">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../xenia-driver-js-api/">
+                    <a rel="prev" href="../../quickstart/install/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -438,34 +438,49 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#xenia-driver-installation">Xenia Driver Installation</a></li>
+        <li class="main active"><a href="#coral-ecosystem">Coral Ecosystem</a></li>
         
-            <li><a href="#import-and-use">Import and use</a></li>
+            <li><a href="#trust">Trust</a></li>
+        
+            <li><a href="#repositories">Repositories</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="xenia-driver-installation">Xenia Driver Installation</h1>
-<pre><code>$ npm install --save xenia-driver
-</code></pre>
-
-<h2 id="import-and-use">Import and use</h2>
-<pre><code>import XeniaDriver from 'xenia-driver'
-
-// Configure your instance
-const xenia = XeniaDriver(baseUrl, {username: 'user', password: 'pass'})
-
-// Use the driver
-xenia()
-  .match({ 'category': 'sports' })
-  .include(['comments', 'name'])
-  .limit(14)
-  .skip(8)
-.join('my_collection')
-.exec().then(data =&gt; console.log(data.results))
-</code></pre></div>
+<h1 id="coral-ecosystem">Coral Ecosystem</h1>
+<p>Over the course of the project, we are building an ecosystem of products, tools and practices. These elements will work together and/or integrate with existing community tools.</p>
+<p><img alt="Architecture" src="../../images/coral-ecosystem-current.png" /></p>
+<h2 id="trust">Trust</h2>
+<p>Trust is our <a href="https://coralproject.net/first-product/">first product</a>. It enables newsroom users to identify different kinds of end users in order to take actions (eg. I want to block these trolls on this author; I want to highlight the best commenters on this subject.) It allows newsrooms to make manual or automated lists of users via a series of filters. </p>
+<p>Trust introduces a number of technological components:</p>
+<p><img alt="Trust Architecture" src="../../images/trust-architecture.png" /></p>
+<h2 id="repositories">Repositories</h2>
+<h3 id="sponge">Sponge</h3>
+<p><a href="https://github.com/coralproject/sponge">Sponge</a> is a command line tool to import comments, authors, assets and other entities into the Coral system. It is designed to read data from a foreign <em>source</em>, translate the schema into Coral conventions, and POST entities to <a href="https://github.com/coralproject/pillar">our service layer</a> for inserting.</p>
+<p>Right now the foreign source could be any of the following:</p>
+<ul>
+<li>MySQL</li>
+<li>PostgreSQL</li>
+<li>MongoDB</li>
+<li>Web Service</li>
+</ul>
+<h3 id="pillar">Pillar</h3>
+<p><a href="https://github.com/coralproject/pillar">Pillar</a> is a REST based web-service module written in golang. It provides the following services:</p>
+<ul>
+<li>Imports external data into the Coral data model</li>
+<li>Allows CRUD operation on Coral data model</li>
+<li>Provides simple queries on Coral data model</li>
+</ul>
+<h3 id="xenia">Xenia</h3>
+<p><a href="https://github.com/coralproject/xenia">Xenia</a> is a configurable service layer that publishes endpoints against <a href="https://docs.mongodb.org/manual/core/aggregation-introduction/">mongo aggregation pipeline queries</a>.</p>
+<h4 id="xenia-driver">Xenia Driver</h4>
+<p><a href="https://github.com/coralproject/xenia-driver-js">This</a> is a javascript driver for Xenia. It performs queris to xenia from the browser and node.js.</p>
+<h3 id="cay">Cay</h3>
+<p><a href="https://github.com/coralproject/cay">Cay</a> is the front-end tool for the Coral Project.</p>
+<h3 id="elkhorn">Elkhorn</h3>
+<p><a href="https://github.com/coralproject/elkhorn">Elkhorn</a> is the form composer.</p></div>
         </div>
 
         <footer class="col-md-12">
