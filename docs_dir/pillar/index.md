@@ -28,7 +28,7 @@ Pillar has automatically generated [GoDoc generated documentation](https://godoc
 
 # Pillar installation
 
-If you want to install Pillar as part of an all-in-one installation of the Coral Ecosystem, you can [find instructions to do that here](../quickstart/install).
+If you want to install Pillar as part of an all-in-one installation of the Coral Ecosystem, you can [find instructions to do that here](../quickstart/install). 
 
 When installing Pillar by itself, you can choose between installing Pillar as a Docker container, or installing from source.
 
