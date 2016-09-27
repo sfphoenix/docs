@@ -7,7 +7,7 @@
 
 Pillar is one of the primary services that interacts with the Coral database. The other service that interacts with the Coral database is [Xenia](../xenia), but Xenia's queries are much more complex than Pillar's. Pillar does use Xenia to perform one specific, more complex search, but they largely serve different purposes.
 
-If you'd like to see more about how Pillar fits into the Coral Ecosystem, you can find some drawings and diagrams on the [Architectural Overview](../architectural_overview) page.
+If you'd like to see more about how Pillar fits into the Coral Ecosystem, you can find some drawings and diagrams on the [Architectural Overview](../architectural_overview) page. 
 
 ## Key Points
 
